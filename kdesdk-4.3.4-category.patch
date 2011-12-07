@@ -1,0 +1,12 @@
+diff -up kdesdk-4.3.4/lokalize/src/lokalize.desktop.than kdesdk-4.3.4/lokalize/src/lokalize.desktop
+--- kdesdk-4.3.4/lokalize/src/lokalize.desktop.than	2010-05-21 14:02:06.000000000 +0200
++++ kdesdk-4.3.4/lokalize/src/lokalize.desktop	2010-05-21 14:02:26.000000000 +0200
+@@ -41,7 +41,7 @@ Name[zh_TW]=Lokalize
+ Exec=lokalize %i -caption "%c"
+ Icon=lokalize
+ Type=Application
+-Categories=Qt;KDE;Development;Office;Translation;
++Categories=Qt;KDE;Development;Translation;
+ MimeType=application/x-xliff;text/x-gettext-translation;application/x-lokalize-project;
+ X-DocPath=lokalize/index.html
+ GenericName=Computer-Aided Translation System

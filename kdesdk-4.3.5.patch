@@ -1,0 +1,1690 @@
+diff -Nur kdesdk-4.3.4/cervisia/cervisia.desktop kdesdk-4.3.5/cervisia/cervisia.desktop
+--- kdesdk-4.3.4/cervisia/cervisia.desktop	2009-11-27 14:04:18.000000000 +0100
++++ kdesdk-4.3.5/cervisia/cervisia.desktop	2010-01-21 21:48:29.000000000 +0100
+@@ -3,6 +3,7 @@
+ GenericName[af]=Cvs Voorprogram
+ GenericName[be]=Інтэрфейс да CVS
+ GenericName[ca]=Frontal de CVS
++GenericName[ca@valencia]=Frontal de CVS
+ GenericName[cs]=Rozhraní pro CVS
+ GenericName[cy]=Ochr Blaen CVS
+ GenericName[da]=CVS-brugerflade
+@@ -67,6 +68,7 @@
+ Name[be]=Cervisia
+ Name[br]=Cervisia
+ Name[ca]=Cervisia
++Name[ca@valencia]=Cervisia
+ Name[cs]=Cervisia
+ Name[cy]=Cervisia
+ Name[da]=Cervisia
+diff -Nur kdesdk-4.3.4/cervisia/cervisia.notifyrc kdesdk-4.3.5/cervisia/cervisia.notifyrc
+--- kdesdk-4.3.4/cervisia/cervisia.notifyrc	2009-10-02 10:21:41.000000000 +0200
++++ kdesdk-4.3.5/cervisia/cervisia.notifyrc	2010-01-21 21:48:29.000000000 +0100
+@@ -3,6 +3,7 @@
+ Comment=Cervisia
+ Comment[br]=Cervisia
+ Comment[ca]=Cervisia
++Comment[ca@valencia]=Cervisia
+ Comment[cs]=Cervisia
+ Comment[cy]=Cervisia
+ Comment[da]=Cervisia
+@@ -51,6 +52,7 @@
+ [Event/cvs_commit_done]
+ Name=CVS commit job done
+ Name[ca]=S'ha completat l'entrega al CVS
++Name[ca@valencia]=S'ha completat l'entrega al CVS
+ Name[cs]=CVS commit úloha dokončena
+ Name[da]=CVS-indsending udført
+ Name[de]=CVS-Einspielvorgang ausgeführt
+@@ -93,6 +95,7 @@
+ Name[zh_TW]=CVS 提交完成
+ Comment=A CVS commit job is done
+ Comment[ca]=S'ha completat una entrega al CVS
++Comment[ca@valencia]=S'ha completat una entrega al CVS
+ Comment[cs]=CVS commit úloha je dokončena
+ Comment[da]=En CVS-indsending er udført
+ Comment[de]=Ein CVS-Einspielvorgang wurde ausgeführt
+diff -Nur kdesdk-4.3.4/cervisia/cervisiapart.desktop kdesdk-4.3.5/cervisia/cervisiapart.desktop
+--- kdesdk-4.3.4/cervisia/cervisiapart.desktop	2009-10-02 10:21:41.000000000 +0200
++++ kdesdk-4.3.5/cervisia/cervisiapart.desktop	2010-01-21 21:48:29.000000000 +0100
+@@ -7,6 +7,7 @@
+ Name[be]=Cervisia
+ Name[br]=Cervisia
+ Name[ca]=Cervisia
++Name[ca@valencia]=Cervisia
+ Name[cs]=Cervisia
+ Name[cy]=Cervisia
+ Name[da]=Cervisia
+diff -Nur kdesdk-4.3.4/cervisia/cvsservice/cvsservice.desktop kdesdk-4.3.5/cervisia/cvsservice/cvsservice.desktop
+--- kdesdk-4.3.4/cervisia/cvsservice/cvsservice.desktop	2009-10-02 10:21:41.000000000 +0200
++++ kdesdk-4.3.5/cervisia/cvsservice/cvsservice.desktop	2010-01-21 21:48:29.000000000 +0100
+@@ -4,6 +4,7 @@
+ Name[be]=CvsService
+ Name[br]=Servij Cvs
+ Name[ca]=Servei de CVS
++Name[ca@valencia]=Servei de CVS
+ Name[cs]=CVS služba
+ Name[cy]=GwasanaethCVS
+ Name[da]=CvsService
+@@ -57,6 +58,7 @@
+ X-KDE-StartupNotify=false
+ Comment=A D-Bus service that provides an interface to cvs
+ Comment[ca]=Un servei D-Bus que proporciona una interfície per al cvs
++Comment[ca@valencia]=Un servei D-Bus que proporciona una interfície per al cvs
+ Comment[cs]=D-Bus služba poskytující rozhraní k CVS
+ Comment[da]=En D-Bus-tjeneste der sørger for en CVS-grænseflade
+ Comment[de]=Ein D-Bus-Dienst, der eine Schnittstelle zu CVS bereitstellt
+Binärdateien kdesdk-4.3.4/doc/cervisia/index.cache.bz2 and kdesdk-4.3.5/doc/cervisia/index.cache.bz2 sind verschieden.
+Binärdateien kdesdk-4.3.4/doc/kapptemplate/index.cache.bz2 and kdesdk-4.3.5/doc/kapptemplate/index.cache.bz2 sind verschieden.
+Binärdateien kdesdk-4.3.4/doc/kate/index.cache.bz2 and kdesdk-4.3.5/doc/kate/index.cache.bz2 sind verschieden.
+Binärdateien kdesdk-4.3.4/doc/kate-plugins/index.cache.bz2 and kdesdk-4.3.5/doc/kate-plugins/index.cache.bz2 sind verschieden.
+Binärdateien kdesdk-4.3.4/doc/kbugbuster/index.cache.bz2 and kdesdk-4.3.5/doc/kbugbuster/index.cache.bz2 sind verschieden.
+Binärdateien kdesdk-4.3.4/doc/kcachegrind/index.cache.bz2 and kdesdk-4.3.5/doc/kcachegrind/index.cache.bz2 sind verschieden.
+Binärdateien kdesdk-4.3.4/doc/kompare/index.cache.bz2 and kdesdk-4.3.5/doc/kompare/index.cache.bz2 sind verschieden.
+Binärdateien kdesdk-4.3.4/doc/scripts/kdesvn-build/index.cache.bz2 and kdesdk-4.3.5/doc/scripts/kdesvn-build/index.cache.bz2 sind verschieden.
+diff -Nur kdesdk-4.3.4/doc/scripts/kdesvn-build/kdesvn-build.desktop kdesdk-4.3.5/doc/scripts/kdesvn-build/kdesvn-build.desktop
+--- kdesdk-4.3.4/doc/scripts/kdesvn-build/kdesvn-build.desktop	2009-11-27 14:04:17.000000000 +0100
++++ kdesdk-4.3.5/doc/scripts/kdesvn-build/kdesvn-build.desktop	2010-01-21 21:48:28.000000000 +0100
+@@ -3,6 +3,7 @@
+ X-DocPath=kdesvn-build/index.html
+ Name=KDE SVN Build
+ Name[ca]=Construcció SVN del KDE
++Name[ca@valencia]=Construcció SVN del KDE
+ Name[cs]=KDE SVN Build
+ Name[da]=KDE SVN-build
+ Name[de]=KDE-SVN-Build
+Binärdateien kdesdk-4.3.4/doc/umbrello/index.cache.bz2 and kdesdk-4.3.5/doc/umbrello/index.cache.bz2 sind verschieden.
+diff -Nur kdesdk-4.3.4/kapptemplate/kapptemplate.desktop kdesdk-4.3.5/kapptemplate/kapptemplate.desktop
+--- kdesdk-4.3.4/kapptemplate/kapptemplate.desktop	2009-11-27 14:04:17.000000000 +0100
++++ kdesdk-4.3.5/kapptemplate/kapptemplate.desktop	2010-01-21 21:48:28.000000000 +0100
+@@ -6,6 +6,7 @@
+ X-DocPath=kapptemplate/index.html
+ GenericName=KDE Template Generator
+ GenericName[ca]=Generador de plantilles del KDE
++GenericName[ca@valencia]=Generador de plantilles del KDE
+ GenericName[cs]=Generátor šablon pro KDE
+ GenericName[da]=KDE skabelongenerator
+ GenericName[de]=KDE-Vorlagengenerator
+@@ -44,6 +45,7 @@
+ Terminal=false
+ Name=KAppTemplate
+ Name[ca]=KAppTemplate
++Name[ca@valencia]=KAppTemplate
+ Name[cs]=KAppTemplate
+ Name[da]=KAppTemplate
+ Name[de]=KAppTemplate
+diff -Nur kdesdk-4.3.4/kapptemplate/templates/C++/akonadiresource/akonadiresource.kdevtemplate kdesdk-4.3.5/kapptemplate/templates/C++/akonadiresource/akonadiresource.kdevtemplate
+--- kdesdk-4.3.4/kapptemplate/templates/C++/akonadiresource/akonadiresource.kdevtemplate	2009-11-27 14:04:17.000000000 +0100
++++ kdesdk-4.3.5/kapptemplate/templates/C++/akonadiresource/akonadiresource.kdevtemplate	2010-01-21 21:48:28.000000000 +0100
+@@ -2,6 +2,7 @@
+ [General]
+ Name=Akonadi Resource Template
+ Name[ca]=Plantilla de recurs de l'Akonadi
++Name[ca@valencia]=Plantilla de recurs de l'Akonadi
+ Name[da]=Ressourceskabelon til Akonadi
+ Name[de]=Akonadi-Ressource
+ Name[el]=Πρότυπο πόρου του Akonadi
+@@ -36,6 +37,7 @@
+ Name[zh_TW]=Aknoadi 資源樣本
+ Comment=A template for an Akonadi PIM data resource
+ Comment[ca]=Una plantilla per un recurs de dades PIM de l'Akonadi
++Comment[ca@valencia]=Una plantilla per un recurs de dades PIM de l'Akonadi
+ Comment[da]=En skabelon til en Akonadi PIM-dataressource
+ Comment[de]=Vorlage für eine Datenressource für das Akonadi-PIM-Framework
+ Comment[el]=Ένα πρότυπο για έναν πόρο δεδομένων Akonadi PIM
+diff -Nur kdesdk-4.3.4/kapptemplate/templates/C++/akonadiserializer/akonadi_serializer_%{APPNAMELC}.desktop kdesdk-4.3.5/kapptemplate/templates/C++/akonadiserializer/akonadi_serializer_%{APPNAMELC}.desktop
+--- kdesdk-4.3.4/kapptemplate/templates/C++/akonadiserializer/akonadi_serializer_%{APPNAMELC}.desktop	2009-11-27 14:04:17.000000000 +0100
++++ kdesdk-4.3.5/kapptemplate/templates/C++/akonadiserializer/akonadi_serializer_%{APPNAMELC}.desktop	2010-01-21 21:48:28.000000000 +0100
+@@ -1,6 +1,7 @@
+ [Misc]
+ Name=%{APPNAME} Serializer
+ Name[ca]=Serialitzador %{APPNAME}
++Name[ca@valencia]=Serialitzador %{APPNAME}
+ Name[cs]=%{APPNAME} Serializer
+ Name[da]=%{APPNAME} serializer
+ Name[de]=%{APPNAME}-Serialisierer
+@@ -34,6 +35,7 @@
+ Name[zh_TW]=%{APPNAME} 序列器
+ Comment=An Akonadi serializer plugin for %{APPNAMELC}
+ Comment[ca]=Un connector de serialització de l'Akonadi per %{APPNAMELC}
++Comment[ca@valencia]=Un connector de serialització de l'Akonadi per %{APPNAMELC}
+ Comment[da]=Et Akonadi serializer-plugin til %{APPNAMELC}
+ Comment[de]=Ein Akonadi-Serialisierer für %{APPNAMELC}
+ Comment[el]=Ένα πρόσθετο διαχειριστή του Akonadi για το %{APPNAMELC}
+diff -Nur kdesdk-4.3.4/kapptemplate/templates/C++/akonadiserializer/akonadiserializer.kdevtemplate kdesdk-4.3.5/kapptemplate/templates/C++/akonadiserializer/akonadiserializer.kdevtemplate
+--- kdesdk-4.3.4/kapptemplate/templates/C++/akonadiserializer/akonadiserializer.kdevtemplate	2009-11-27 14:04:17.000000000 +0100
++++ kdesdk-4.3.5/kapptemplate/templates/C++/akonadiserializer/akonadiserializer.kdevtemplate	2010-01-21 21:48:28.000000000 +0100
+@@ -2,6 +2,7 @@
+ [General]
+ Name=Akonadi Serializer Template
+ Name[ca]=Plantilla de serialitzador de l'Akonadi
++Name[ca@valencia]=Plantilla de serialitzador de l'Akonadi
+ Name[da]=Akonadi serializer-skabelon
+ Name[de]=Akonadi-Serialisierer-Vorlage
+ Name[el]=Πρότυπο διαχειριστή του Akonadi
+@@ -33,6 +34,7 @@
+ Name[zh_TW]=Aknoadi 序列器樣本
+ Comment=A template for an Akonadi data serializer plugin
+ Comment[ca]=Una plantilla per un connector de serialització de dades de l'Akonadi
++Comment[ca@valencia]=Una plantilla per un connector de serialització de dades de l'Akonadi
+ Comment[da]=En skabelon til et Akonadi data-serializer-plugin
+ Comment[de]=Eine Vorlage für einen Datenserialisierer für das Akonadi-PIM-Framework
+ Comment[el]=Ένα πρότυπο για ένα πρόσθετο διαχειρστή του Akonadi
+diff -Nur kdesdk-4.3.4/kapptemplate/templates/C++/kapp4/kapp4.kdevtemplate kdesdk-4.3.5/kapptemplate/templates/C++/kapp4/kapp4.kdevtemplate
+--- kdesdk-4.3.4/kapptemplate/templates/C++/kapp4/kapp4.kdevtemplate	2009-11-27 14:04:17.000000000 +0100
++++ kdesdk-4.3.5/kapptemplate/templates/C++/kapp4/kapp4.kdevtemplate	2010-01-21 21:48:28.000000000 +0100
+@@ -2,6 +2,7 @@
+ [General]
+ Name=KDE 4 GUI Application
+ Name[ca]=Aplicació IGU del KDE 4
++Name[ca@valencia]=Aplicació IGU del KDE 4
+ Name[cs]=KDE 4 GUI aplikace
+ Name[da]=Et grafisk KDE4-program
+ Name[de]=Grafische KDE-4-Anwendung
+@@ -38,6 +39,7 @@
+ Name[zh_TW]=KDE 4 圖形介面應用程式
+ Comment=KDE4 simple template based on CMake, inherits from XMLGuiWindow and demonstrates how to use KConfig XT
+ Comment[ca]=Plantilla simple del KDE4 basada en el CMake, hereva del XMLGuiWindow i que demostra com usar el KConfig XT
++Comment[ca@valencia]=Plantilla simple del KDE4 basada en el CMake, hereva del XMLGuiWindow i que demostra com usar el KConfig XT
+ Comment[da]=Simpel KDE4-skabelon baseret på CMake. Den efterfølger XMLGuiWindow og demonstrerer hvordan KConfig XT bruges
+ Comment[de]=Einfache KDE-4-Vorlage basierend auf CMake. Abgeleitet von XMLGuiWindow und demonstriert, wie KConfig XT zu verwenden ist
+ Comment[el]=Απλό πρότυπο του KDE4 βασισμένο στο CMake, προέρχεται από το XMLGuiWindow και δείχνει πως χρησιμοποιείται το KConfig XT
+diff -Nur kdesdk-4.3.4/kapptemplate/templates/C++/kapp4/src/%{APPNAMELC}.desktop kdesdk-4.3.5/kapptemplate/templates/C++/kapp4/src/%{APPNAMELC}.desktop
+--- kdesdk-4.3.4/kapptemplate/templates/C++/kapp4/src/%{APPNAMELC}.desktop	2009-11-27 14:04:17.000000000 +0100
++++ kdesdk-4.3.5/kapptemplate/templates/C++/kapp4/src/%{APPNAMELC}.desktop	2010-01-21 21:48:28.000000000 +0100
+@@ -1,6 +1,7 @@
+ [Desktop Entry]
+ Name=%{APPNAME}
+ Name[ca]=%{APPNAME}
++Name[ca@valencia]=%{APPNAME}
+ Name[cs]=%{APPNAME}
+ Name[da]=%{APPNAME}
+ Name[de]=%{APPNAME}
+@@ -41,6 +42,7 @@
+ X-DocPath=%{APPNAMELC}/index.html
+ GenericName=A KDE4 Application
+ GenericName[ca]=Una aplicació del KDE4
++GenericName[ca@valencia]=Una aplicació del KDE4
+ GenericName[cs]=Aplikace prostředí KDE
+ GenericName[da]=Et KDE4-program
+ GenericName[de]=Eine KDE-4-Anwendung
+diff -Nur kdesdk-4.3.4/kapptemplate/templates/C++/kpartapp/kpartapp.kdevtemplate kdesdk-4.3.5/kapptemplate/templates/C++/kpartapp/kpartapp.kdevtemplate
+--- kdesdk-4.3.4/kapptemplate/templates/C++/kpartapp/kpartapp.kdevtemplate	2009-11-27 14:04:17.000000000 +0100
++++ kdesdk-4.3.5/kapptemplate/templates/C++/kpartapp/kpartapp.kdevtemplate	2010-01-21 21:48:28.000000000 +0100
+@@ -2,6 +2,7 @@
+ [General]
+ Name=KDE 4 KPart Application
+ Name[ca]=Una aplicació KPart del KDE 4
++Name[ca@valencia]=Una aplicació KPart del KDE 4
+ Name[cs]=Aplikace KDE 4 KPart
+ Name[da]=Et KDE 4 KPart-program
+ Name[de]=KDE-4-KPart-Anwendung
+@@ -38,6 +39,7 @@
+ Name[zh_TW]=KDE 4 KPart 應用程式
+ Comment=KDE4 simple template based on CMake, inherits from XMLGuiWindow and demonstrates how to use KPart
+ Comment[ca]=Plantilla simple del KDE4 basada en el CMake, hereva del XMLGuiWindow i que demostra com usar el KPart
++Comment[ca@valencia]=Plantilla simple del KDE4 basada en el CMake, hereva del XMLGuiWindow i que demostra com usar el KPart
+ Comment[da]=Simpel KDE4-skabelon baseret på CMake. Den efterfølger XMLGuiWindow og demonstrerer hvordan KPart bruges
+ Comment[de]=Einfache KDE-4-Vorlage basierend auf CMake. Abgeleitet von XMLGuiWindow und demonstriert, wie KPart zu verwenden ist
+ Comment[el]=Απλό πρότυπο του KDE4 βασισμένο στο CMake, προέρχεται από το XMLGuiWindow και δείχνει πως χρησιμοποιείται το KPart
+diff -Nur kdesdk-4.3.4/kapptemplate/templates/C++/kpartapp/src/%{APPNAMELC}.desktop kdesdk-4.3.5/kapptemplate/templates/C++/kpartapp/src/%{APPNAMELC}.desktop
+--- kdesdk-4.3.4/kapptemplate/templates/C++/kpartapp/src/%{APPNAMELC}.desktop	2009-11-27 14:04:17.000000000 +0100
++++ kdesdk-4.3.5/kapptemplate/templates/C++/kpartapp/src/%{APPNAMELC}.desktop	2010-01-21 21:48:28.000000000 +0100
+@@ -1,6 +1,7 @@
+ [Desktop Entry]
+ Name=%{APPNAME}
+ Name[ca]=%{APPNAME}
++Name[ca@valencia]=%{APPNAME}
+ Name[cs]=%{APPNAME}
+ Name[da]=%{APPNAME}
+ Name[de]=%{APPNAME}
+@@ -41,6 +42,7 @@
+ X-DocPath=%{APPNAMELC}/index.html
+ GenericName=A KDE KPart Application
+ GenericName[ca]=Una aplicació KPart del KDE
++GenericName[ca@valencia]=Una aplicació KPart del KDE
+ GenericName[cs]=Aplikace KDE KPart
+ GenericName[da]=Et KDE KPart-program
+ GenericName[de]=Eine KDE-KPart-Anwendung
+diff -Nur kdesdk-4.3.4/kapptemplate/templates/C++/kpartapp/src/%{APPNAMELC}_part.desktop kdesdk-4.3.5/kapptemplate/templates/C++/kpartapp/src/%{APPNAMELC}_part.desktop
+--- kdesdk-4.3.4/kapptemplate/templates/C++/kpartapp/src/%{APPNAMELC}_part.desktop	2009-11-27 14:04:17.000000000 +0100
++++ kdesdk-4.3.5/kapptemplate/templates/C++/kpartapp/src/%{APPNAMELC}_part.desktop	2010-01-21 21:48:28.000000000 +0100
+@@ -1,6 +1,7 @@
+ [Desktop Entry]
+ Name=%{APPNAME}Part
+ Name[ca]=%{APPNAME}Part
++Name[ca@valencia]=%{APPNAME}Part
+ Name[cs]=%{APPNAME}Part
+ Name[da]=%{APPNAME}Part
+ Name[de]=%{APPNAME}Part
+diff -Nur kdesdk-4.3.4/kapptemplate/templates/C++/plasmoid/plasma-applet-%{APPNAMELC}.desktop kdesdk-4.3.5/kapptemplate/templates/C++/plasmoid/plasma-applet-%{APPNAMELC}.desktop
+--- kdesdk-4.3.4/kapptemplate/templates/C++/plasmoid/plasma-applet-%{APPNAMELC}.desktop	2009-11-27 14:04:17.000000000 +0100
++++ kdesdk-4.3.5/kapptemplate/templates/C++/plasmoid/plasma-applet-%{APPNAMELC}.desktop	2010-01-21 21:48:28.000000000 +0100
+@@ -1,6 +1,7 @@
+ [Desktop Entry]
+ Name=%{APPNAME}
+ Name[ca]=%{APPNAME}
++Name[ca@valencia]=%{APPNAME}
+ Name[cs]=%{APPNAME}
+ Name[da]=%{APPNAME}
+ Name[de]=%{APPNAME}
+@@ -37,6 +38,7 @@
+ Name[zh_TW]=%{APPNAME}
+ Comment=Plasma %{APPNAME}
+ Comment[ca]=Plasma %{APPNAME}
++Comment[ca@valencia]=Plasma %{APPNAME}
+ Comment[cs]=Plasma %{APPNAME}
+ Comment[da]=Plasma %{APPNAME}
+ Comment[de]=Plasma %{APPNAME}
+diff -Nur kdesdk-4.3.4/kapptemplate/templates/C++/plasmoid/plasmoid.kdevtemplate kdesdk-4.3.5/kapptemplate/templates/C++/plasmoid/plasmoid.kdevtemplate
+--- kdesdk-4.3.4/kapptemplate/templates/C++/plasmoid/plasmoid.kdevtemplate	2009-11-27 14:04:17.000000000 +0100
++++ kdesdk-4.3.5/kapptemplate/templates/C++/plasmoid/plasmoid.kdevtemplate	2010-01-21 21:48:28.000000000 +0100
+@@ -2,6 +2,7 @@
+ [General]
+ Name=Plasma Applet Template
+ Name[ca]=Plantilla de miniaplicació Plasma
++Name[ca@valencia]=Plantilla de miniaplicació Plasma
+ Name[cs]=Šablona plasma appletu
+ Name[da]=Skabelon til Plasma-applet
+ Name[de]=Plasma-Miniprogramm
+@@ -38,6 +39,7 @@
+ Name[zh_TW]=Plasma 小程式樣本
+ Comment=A plasma applet template displaying an icon and a text
+ Comment[ca]=Una plantilla de miniaplicació plasma que mostra una icona i un text
++Comment[ca@valencia]=Una plantilla de miniaplicació plasma que mostra una icona i un text
+ Comment[da]=En skabelon til en Plasma-applet, som viser et ikon og en tekst
+ Comment[de]=Vorlage für ein Plasma-Miniprogramm, das ein Symbol und einen Text anzeigt
+ Comment[el]=Ένα πρότυπο ενός πλασμοειδούς που εμφανίζει ένα εικονίδιο και ένα κείμενο
+diff -Nur kdesdk-4.3.4/kapptemplate/templates/C++/qmake_qt4guiapp/qmake_qt4guiapp.kdevtemplate kdesdk-4.3.5/kapptemplate/templates/C++/qmake_qt4guiapp/qmake_qt4guiapp.kdevtemplate
+--- kdesdk-4.3.4/kapptemplate/templates/C++/qmake_qt4guiapp/qmake_qt4guiapp.kdevtemplate	2009-11-27 14:04:17.000000000 +0100
++++ kdesdk-4.3.5/kapptemplate/templates/C++/qmake_qt4guiapp/qmake_qt4guiapp.kdevtemplate	2010-01-21 21:48:28.000000000 +0100
+@@ -2,6 +2,7 @@
+ [General]
+ Name=Qt4 GUI Application
+ Name[ca]=Aplicació IGU Qt4
++Name[ca@valencia]=Aplicació IGU Qt4
+ Name[cs]=GUI aplikace Qt4
+ Name[da]=Grafisk Qt4-program
+ Name[de]=Grafische Qt-4-Anwendung
+@@ -39,6 +40,7 @@
+ Category=C++/Qt (qmake)
+ Comment=Generate a QMake/Qt4 based application with graphical user interface (crossplatform compatible)
+ Comment[ca]=Genera una aplicació basada en QMake/Qt4 amb una interfície gràfica d'usuari (compatible amb multiplataforma)
++Comment[ca@valencia]=Genera una aplicació basada en QMake/Qt4 amb una interfície gràfica d'usuari (compatible amb multiplataforma)
+ Comment[da]=Genererer et QMake-/Qt4-baseret program med grafisk brugerflade (kompatibel på tværs af platforme)
+ Comment[de]=Erstellt eine auf QMake/Qt 4 basierende Anwendung mit grafischer Benutzeroberfläche (plattformübergreifend)
+ Comment[el]=Δημιουργία μιας εφαρμογής βασισμένη στο QMake/Qt4 με γραφικό περιβάλλον (συμβατή με πολλαπλές πλατφόρμες)
+diff -Nur kdesdk-4.3.4/kapptemplate/templates/C++/runner/%{APPNAMELC}.desktop kdesdk-4.3.5/kapptemplate/templates/C++/runner/%{APPNAMELC}.desktop
+--- kdesdk-4.3.4/kapptemplate/templates/C++/runner/%{APPNAMELC}.desktop	2009-11-27 14:04:17.000000000 +0100
++++ kdesdk-4.3.5/kapptemplate/templates/C++/runner/%{APPNAMELC}.desktop	2010-01-21 21:48:28.000000000 +0100
+@@ -1,6 +1,7 @@
+ [Desktop Entry]
+ Name=%{APPNAME}
+ Name[ca]=%{APPNAME}
++Name[ca@valencia]=%{APPNAME}
+ Name[cs]=%{APPNAME}
+ Name[da]=%{APPNAME}
+ Name[de]=%{APPNAME}
+@@ -37,6 +38,7 @@
+ Name[zh_TW]=%{APPNAME}
+ Comment=%{APPNAME} runner
+ Comment[ca]=Llançador de %{APPNAME}
++Comment[ca@valencia]=Llançador de %{APPNAME}
+ Comment[cs]=%{APPNAME} runner
+ Comment[da]=%{APPNAME}-runner
+ Comment[de]=%{APPNAME}
+diff -Nur kdesdk-4.3.4/kapptemplate/templates/C++/runner/runner.kdevtemplate kdesdk-4.3.5/kapptemplate/templates/C++/runner/runner.kdevtemplate
+--- kdesdk-4.3.4/kapptemplate/templates/C++/runner/runner.kdevtemplate	2009-11-27 14:04:17.000000000 +0100
++++ kdesdk-4.3.5/kapptemplate/templates/C++/runner/runner.kdevtemplate	2010-01-21 21:48:28.000000000 +0100
+@@ -2,6 +2,7 @@
+ [General]
+ Name=Plasma Runner Template
+ Name[ca]=Plantilla de llançador per Plasma
++Name[ca@valencia]=Plantilla de llançador per Plasma
+ Name[da]=Skabelon til Plasma-runner
+ Name[de]=KRunner-Modul
+ Name[el]=Πρότυπο εκτελεστή Plasma
+@@ -36,6 +37,7 @@
+ Name[zh_TW]=Plasma 執行器樣本
+ Comment=A plasma runner template
+ Comment[ca]=Una plantilla de llançador per Plasma
++Comment[ca@valencia]=Una plantilla de llançador per Plasma
+ Comment[da]=En skabelon til plasma-runner
+ Comment[de]=Eine Vorlage für ein KRunner-Modul
+ Comment[el]=Ένα πρότυπο εκτελεστή plasma
+diff -Nur kdesdk-4.3.4/kapptemplate/templates/Python/pykde4app/pykde4app.kdevtemplate kdesdk-4.3.5/kapptemplate/templates/Python/pykde4app/pykde4app.kdevtemplate
+--- kdesdk-4.3.4/kapptemplate/templates/Python/pykde4app/pykde4app.kdevtemplate	2009-11-27 14:04:17.000000000 +0100
++++ kdesdk-4.3.5/kapptemplate/templates/Python/pykde4app/pykde4app.kdevtemplate	2010-01-21 21:48:28.000000000 +0100
+@@ -2,6 +2,7 @@
+ [General]
+ Name=PyKDE4 GUI Application
+ Name[ca]=Aplicació IGU PyKDE4
++Name[ca@valencia]=Aplicació IGU PyKDE4
+ Name[cs]=GUI aplikace PyKDE4
+ Name[da]=Grafisk PyKDE4-program
+ Name[de]=Grafische PyKDE4-Anwendung
+@@ -38,6 +39,7 @@
+ Name[zh_TW]=PyKDE4 圖形介面應用程式
+ Comment=PyKDE4 template  - needs PyKDE4
+ Comment[ca]=Plantilla PyKDE4 - necessita el PyKDE4
++Comment[ca@valencia]=Plantilla PyKDE4 - necessita el PyKDE4
+ Comment[da]=PyKDE4-skabelon  - kræver PyKDE4
+ Comment[de]=Vorlage für PyKDE4 - benötigt PyKDE4
+ Comment[el]=Πρότυπο του PyKDE4 - απαιτείται το PyKDE4
+diff -Nur kdesdk-4.3.4/kapptemplate/templates/Python/pyqt4app/pyqt4app.kdevtemplate kdesdk-4.3.5/kapptemplate/templates/Python/pyqt4app/pyqt4app.kdevtemplate
+--- kdesdk-4.3.4/kapptemplate/templates/Python/pyqt4app/pyqt4app.kdevtemplate	2009-11-27 14:04:17.000000000 +0100
++++ kdesdk-4.3.5/kapptemplate/templates/Python/pyqt4app/pyqt4app.kdevtemplate	2010-01-21 21:48:28.000000000 +0100
+@@ -2,6 +2,7 @@
+ [General]
+ Name=PyQt4 GUI Application
+ Name[ca]=Aplicació IGU PyQt4
++Name[ca@valencia]=Aplicació IGU PyQt4
+ Name[cs]=GUI aplikace PyQt4
+ Name[da]=Grafisk PyQt4-program
+ Name[de]=Grafische PyQt4-Anwendung
+@@ -38,6 +39,7 @@
+ Name[zh_TW]=PyQt4 圖形介面應用程式
+ Comment=PyQt template using a Designer file - needs PyQt4
+ Comment[ca]=Plantilla PyQt que usa un fitxer de Designer - necessita el PyQt4
++Comment[ca@valencia]=Plantilla PyQt que usa un fitxer de Designer - necessita el PyQt4
+ Comment[da]=PyQt-skabelon som bruger en Designer-fil - kræver PyQt4
+ Comment[de]=Vorlage für PyQt mit Qt-Designer-Datei - benötigt PyQt4
+ Comment[el]=Πρότυπο της PyQt4 που χρησιμοποιεί αρχείο του Designer - απαιτείται η PyQt4
+diff -Nur kdesdk-4.3.4/kapptemplate/templates/ruby/kderubyapp/kderubyapp.kdevtemplate kdesdk-4.3.5/kapptemplate/templates/ruby/kderubyapp/kderubyapp.kdevtemplate
+--- kdesdk-4.3.4/kapptemplate/templates/ruby/kderubyapp/kderubyapp.kdevtemplate	2009-11-27 14:04:17.000000000 +0100
++++ kdesdk-4.3.5/kapptemplate/templates/ruby/kderubyapp/kderubyapp.kdevtemplate	2010-01-21 21:48:28.000000000 +0100
+@@ -2,6 +2,7 @@
+ [General]
+ Name=KDE 4 Ruby GUI Application
+ Name[ca]=Aplicació IGU en Ruby del KDE 4
++Name[ca@valencia]=Aplicació IGU en Ruby del KDE 4
+ Name[da]=Grafisk KDE 4 Ruby-program
+ Name[de]=Grafische KDE-4-Ruby-Anwendung
+ Name[el]=Εφαρμογή KDE4 Ruby
+@@ -36,6 +37,7 @@
+ Name[zh_TW]=KDE4 Ruby 圖形介面應用程式
+ Comment=KDE4 simple ruby template, inherits from XMLGuiWindow - needs korundum4
+ Comment[ca]=Plantilla ruby senzilla del KDE4, hereva del XMLGuiWindow - necessita el «korundum4»
++Comment[ca@valencia]=Plantilla ruby senzilla del KDE4, hereva del XMLGuiWindow - necessita el «korundum4»
+ Comment[da]=Simpel Ruby-skabelon til KDE 4. Den efterfølger XMLGuiWindows - kræver korundum4
+ Comment[de]=Vorlage für einfache KDE-4-Ruby-Anwendung. Abgeleitet von XMLGuiWindow - benötigt Korundum 4
+ Comment[el]=Απλό πρότυπο του KDE4 Ruby που προέρχεται από το XMLGuiWindow - απαιτείται το korundum4
+diff -Nur kdesdk-4.3.4/kapptemplate/templates/ruby/kderubyapp/src/%{APPNAMELC}.desktop kdesdk-4.3.5/kapptemplate/templates/ruby/kderubyapp/src/%{APPNAMELC}.desktop
+--- kdesdk-4.3.4/kapptemplate/templates/ruby/kderubyapp/src/%{APPNAMELC}.desktop	2009-11-27 14:04:17.000000000 +0100
++++ kdesdk-4.3.5/kapptemplate/templates/ruby/kderubyapp/src/%{APPNAMELC}.desktop	2010-01-21 21:48:28.000000000 +0100
+@@ -1,6 +1,7 @@
+ [Desktop Entry]
+ Name=%{APPNAME}
+ Name[ca]=%{APPNAME}
++Name[ca@valencia]=%{APPNAME}
+ Name[cs]=%{APPNAME}
+ Name[da]=%{APPNAME}
+ Name[de]=%{APPNAME}
+@@ -41,6 +42,7 @@
+ X-DocPath=%{APPNAMELC}/index.html
+ GenericName=A KDE4 Ruby Application
+ GenericName[ca]=Una aplicació Ruby del KDE4
++GenericName[ca@valencia]=Una aplicació Ruby del KDE4
+ GenericName[da]=Et KDE4 Ruby-program
+ GenericName[de]=KDE-4-Ruby-Anwendung
+ GenericName[el]=Μια εφαρμογή KDE4 Ruby
+diff -Nur kdesdk-4.3.4/kate/data/kate.desktop kdesdk-4.3.5/kate/data/kate.desktop
+--- kdesdk-4.3.4/kate/data/kate.desktop	2009-10-30 13:31:57.000000000 +0100
++++ kdesdk-4.3.5/kate/data/kate.desktop	2010-01-21 21:48:27.000000000 +0100
+@@ -1,6 +1,7 @@
+ [Desktop Entry]
+ GenericName=Advanced Text Editor
+ GenericName[ca]=Editor de text avançat
++GenericName[ca@valencia]=Editor de text avançat
+ GenericName[cs]=Pokročilý textový editor
+ GenericName[da]=Avanceret teksteditor
+ GenericName[de]=Erweiterter Texteditor
+@@ -35,13 +36,14 @@
+ GenericName[sr@latin]=Napredni uređivač teksta
+ GenericName[sv]=Avancerad texteditor
+ GenericName[tr]=Gelişmiş Metin Düzenleyici
+-GenericName[uk]=Текстовий редактор з додатковими можливостями
++GenericName[uk]=Потужний текстовий редактор
+ GenericName[x-test]=xxAdvanced Text Editorxx
+ GenericName[zh_CN]=高级文本编辑器
+ GenericName[zh_TW]=進階文字編輯器
+ Name=Kate
+ Name[be]=Kate
+ Name[ca]=Kate
++Name[ca@valencia]=Kate
+ Name[cs]=Kate
+ Name[da]=Kate
+ Name[de]=Kate
+diff -Nur kdesdk-4.3.4/kate/data/kateplugin.desktop kdesdk-4.3.5/kate/data/kateplugin.desktop
+--- kdesdk-4.3.4/kate/data/kateplugin.desktop	2009-10-02 10:21:39.000000000 +0200
++++ kdesdk-4.3.5/kate/data/kateplugin.desktop	2010-01-21 21:48:27.000000000 +0100
+@@ -4,6 +4,7 @@
+ X-KDE-Derived=
+ Comment=Kate Plugin
+ Comment[ca]=Connector per al Kate
++Comment[ca@valencia]=Connector per al Kate
+ Comment[cs]=Modul Kate
+ Comment[da]=Kate-plugin
+ Comment[de]=Kate-Modul
+@@ -37,7 +38,7 @@
+ Comment[sr@latin]=Priključak za Kate
+ Comment[sv]=Kate insticksprogram
+ Comment[tr]=Kate Eklentisi
+-Comment[uk]=Втулка Kate
++Comment[uk]=Додаток до Kate
+ Comment[wa]=Tchôke-divins di Kate
+ Comment[x-test]=xxKate Pluginxx
+ Comment[zh_CN]=Kate 插件
+diff -Nur kdesdk-4.3.4/kate/plasma/session/plasma-applet-katesession.desktop kdesdk-4.3.5/kate/plasma/session/plasma-applet-katesession.desktop
+--- kdesdk-4.3.4/kate/plasma/session/plasma-applet-katesession.desktop	2009-11-27 14:04:17.000000000 +0100
++++ kdesdk-4.3.5/kate/plasma/session/plasma-applet-katesession.desktop	2010-01-21 21:48:28.000000000 +0100
+@@ -1,6 +1,7 @@
+ [Desktop Entry]
+ Name=Kate Session Applet
+ Name[ca]=Miniaplicació de sessió del Kate
++Name[ca@valencia]=Miniaplicació de sessió del Kate
+ Name[cs]=Applet relace Kate
+ Name[da]=Panelprogram til Kate-session
+ Name[de]=Miniprogramm für Kate-Sitzungsverwaltung
+@@ -37,6 +38,7 @@
+ Name[zh_TW]=Kate 工作階段小程式
+ Comment=Kate Session Launcher
+ Comment[ca]=Llançador de sessió del Kate
++Comment[ca@valencia]=Llançador de sessió del Kate
+ Comment[cs]=Spouštěč sezení Kate
+ Comment[da]=Kate sessionstarter
+ Comment[de]=Kate-Sitzung starten
+diff -Nur kdesdk-4.3.4/kate/plugins/backtracebrowser/katebacktracebrowserplugin.desktop kdesdk-4.3.5/kate/plugins/backtracebrowser/katebacktracebrowserplugin.desktop
+--- kdesdk-4.3.4/kate/plugins/backtracebrowser/katebacktracebrowserplugin.desktop	2009-11-27 14:04:16.000000000 +0100
++++ kdesdk-4.3.5/kate/plugins/backtracebrowser/katebacktracebrowserplugin.desktop	2010-01-21 21:48:27.000000000 +0100
+@@ -6,6 +6,7 @@
+ X-Kate-Version=3.0
+ Name=Backtrace Browser
+ Name[ca]=Navegador de traça inversa
++Name[ca@valencia]=Navegador de traça inversa
+ Name[cs]=Prohlížeč backtrace
+ Name[da]=Backtrace-browser
+ Name[de]=Backtrace-Browser
+@@ -38,6 +39,7 @@
+ Name[zh_TW]=回溯追蹤瀏覽器
+ Comment=Backtrace navigation tool view
+ Comment[ca]=Eina de vista del navegador de traça inversa
++Comment[ca@valencia]=Eina de vista del navegador de traça inversa
+ Comment[da]=Værktøjsvisning til gennemse backtrace
+ Comment[de]=Ansicht zur Navigation in Backtraces
+ Comment[el]=Προβολή εργαλείου περιήγησης Backtrace
+diff -Nur kdesdk-4.3.4/kate/plugins/externaltools/kateexternaltoolsplugin.desktop kdesdk-4.3.5/kate/plugins/externaltools/kateexternaltoolsplugin.desktop
+--- kdesdk-4.3.4/kate/plugins/externaltools/kateexternaltoolsplugin.desktop	2009-10-02 10:21:39.000000000 +0200
++++ kdesdk-4.3.5/kate/plugins/externaltools/kateexternaltoolsplugin.desktop	2010-01-21 21:48:27.000000000 +0100
+@@ -6,6 +6,7 @@
+ Name=External Tools
+ Name[be]=Знешнія інструменты
+ Name[ca]=Eines externes
++Name[ca@valencia]=Eines externes
+ Name[cs]=Externí nástroje
+ Name[da]=Eksterne værktøjer
+ Name[de]=Externe Programme
+@@ -46,6 +47,7 @@
+ Comment=External Tools
+ Comment[be]=Знешнія інструменты
+ Comment[ca]=Eines externes
++Comment[ca@valencia]=Eines externes
+ Comment[cs]=Externí nástroje
+ Comment[da]=Eksterne værktøjer
+ Comment[de]=Externe Programme
+diff -Nur kdesdk-4.3.4/kate/plugins/filebrowser/katefilebrowserplugin.desktop kdesdk-4.3.5/kate/plugins/filebrowser/katefilebrowserplugin.desktop
+--- kdesdk-4.3.4/kate/plugins/filebrowser/katefilebrowserplugin.desktop	2009-11-27 14:04:16.000000000 +0100
++++ kdesdk-4.3.5/kate/plugins/filebrowser/katefilebrowserplugin.desktop	2010-01-21 21:48:27.000000000 +0100
+@@ -5,6 +5,7 @@
+ X-Kate-Version=2.8
+ Name=File system browser
+ Name[ca]=Navegador del sistema de fitxers
++Name[ca@valencia]=Navegador del sistema de fitxers
+ Name[cs]=Prohlížeč souborového systému
+ Name[da]=Filsystemsbrowser
+ Name[de]=Dateisystem-Browser
+@@ -43,6 +44,7 @@
+ Name[zh_TW]=檔案系統瀏覽器
+ Comment=File system browser tool view
+ Comment[ca]=Eina de visita del navegador del sistema de fitxers
++Comment[ca@valencia]=Eina de visita del navegador del sistema de fitxers
+ Comment[da]=Visning af værktøj til filsystembrowser
+ Comment[de]=Werkzeugansicht für Dateisystem-Browser
+ Comment[el]=Εργαλείο περιήγησης συστήματος αρχείων
+diff -Nur kdesdk-4.3.4/kate/plugins/filetemplates/plugin/katefiletemplates.desktop kdesdk-4.3.5/kate/plugins/filetemplates/plugin/katefiletemplates.desktop
+--- kdesdk-4.3.4/kate/plugins/filetemplates/plugin/katefiletemplates.desktop	2009-11-27 14:04:16.000000000 +0100
++++ kdesdk-4.3.5/kate/plugins/filetemplates/plugin/katefiletemplates.desktop	2010-01-21 21:48:27.000000000 +0100
+@@ -5,6 +5,7 @@
+ X-KDE-Library=katefiletemplates
+ Name=File Templates
+ Name[ca]=Plantilles de fitxers
++Name[ca@valencia]=Plantilles de fitxers
+ Name[cs]=Šablony souborů
+ Name[da]=Filskabeloner
+ Name[de]=Dateivorlagen
+@@ -38,6 +39,7 @@
+ Name[zh_TW]=檔案樣本
+ Comment=Create new files from templates
+ Comment[ca]=Crea fitxers nous des de plantilles
++Comment[ca@valencia]=Crea fitxers nous des de plantilles
+ Comment[da]=Opret nye filer fra skabeloner
+ Comment[de]=Erstellt neue Dateien aus Vorlagen
+ Comment[el]=Δημιουργία νέων αρχείων από πρότυπα
+@@ -47,6 +49,7 @@
+ Comment[fr]=Crée de nouveaux fichiers à partir de modèles
+ Comment[ga]=Cruthaigh comhaid nua ó theimpléid
+ Comment[gl]=Crea novos ficheiros a partir de modelos
++Comment[hu]=Új fájlok létrehozása sablon alapján
+ Comment[it]=Crea nuovi file partendo da modelli
+ Comment[ja]=テンプレートから新しいファイルを作成します
+ Comment[lv]=Izveido jaunus failus, izmantojot sagataves
+diff -Nur kdesdk-4.3.4/kate/plugins/findinfiles/katefindinfilesplugin.desktop kdesdk-4.3.5/kate/plugins/findinfiles/katefindinfilesplugin.desktop
+--- kdesdk-4.3.4/kate/plugins/findinfiles/katefindinfilesplugin.desktop	2009-10-02 10:21:38.000000000 +0200
++++ kdesdk-4.3.5/kate/plugins/findinfiles/katefindinfilesplugin.desktop	2010-01-21 21:48:27.000000000 +0100
+@@ -5,6 +5,7 @@
+ X-Kate-Version=2.8
+ Name=Find in files tool view
+ Name[ca]=Cerca a l'eina de visualització de fitxers
++Name[ca@valencia]=Cerca a l'eina de visualització de fitxers
+ Name[da]=Find i filværktøjsvisning
+ Name[de]=Werkzeugansicht zum Suchen in Dateien
+ Name[el]=Προβολή εργαλείων εύρεσης σε αρχεία
+@@ -40,6 +41,7 @@
+ Name[zh_TW]=「在檔案中尋找」工具檢視
+ Comment=Toolview allowing to search in all open files or files in the filesystem
+ Comment[ca]=Eina de vista que permet cercar a tots els fitxers oberts o fitxers al sistema de fitxers
++Comment[ca@valencia]=Eina de vista que permet cercar a tots els fitxers oberts o fitxers al sistema de fitxers
+ Comment[da]=Værktøjsvisning som tillader at søge i alle åbne filer eller filer på filsystemet
+ Comment[de]=Werkzeugansicht, die es erlaubt, alle geöffneten Dateien oder Dateien im Dateisystem zu durchsuchen
+ Comment[el]=Προβολή εργαλείων που επιτρέπει την αναζήτηση σε όλα τα ανοιχτά αρχεία ή τα αρχεία του συστήματος αρχείων
+diff -Nur kdesdk-4.3.4/kate/plugins/helloworld/katehelloworld.desktop kdesdk-4.3.5/kate/plugins/helloworld/katehelloworld.desktop
+--- kdesdk-4.3.4/kate/plugins/helloworld/katehelloworld.desktop	2009-11-27 14:04:17.000000000 +0100
++++ kdesdk-4.3.5/kate/plugins/helloworld/katehelloworld.desktop	2010-01-21 21:48:27.000000000 +0100
+@@ -5,6 +5,7 @@
+ X-Kate-Version=2.9
+ Name=Hello World Plugin
+ Name[ca]=Connector Hola món
++Name[ca@valencia]=Connector Hola món
+ Name[cs]=Modul Hello World
+ Name[da]="Hello World"-plugin
+ Name[de]=Hello-World-Modul
+@@ -14,6 +15,7 @@
+ Name[et]='Tere, maailm' plugin
+ Name[fr]=Module externe « Bonjour monde »
+ Name[gl]=Extensión de «Olá, mundo»
++Name[hu]=Hello World bővítmény
+ Name[it]=Estensione Ciao Mondo
+ Name[ja]=Hello World プラグイン
+ Name[lv]=Sveika pasaule spraudnis
+@@ -26,8 +28,8 @@
+ Name[pt]='Plugin' de Testes
+ Name[pt_BR]=Plugin de Teste
+ Name[ru]=Тестовый модуль
+-Name[sr]=Здраво-свете прикључак
+-Name[sr@latin]=Zdravo-svete priključak
++Name[sr]=Здраво‑свете прикључак
++Name[sr@latin]=Zdravo‑svete priključak
+ Name[sv]=Hello world-insticksprogram
+ Name[tr]=Merhaba Dünya Eklentisi
+ Name[uk]=Тестовий додаток
+@@ -36,6 +38,7 @@
+ Name[zh_TW]=Hello World 外掛程式
+ Comment=Your short description about the plugin goes here
+ Comment[ca]=Aquí va una breu descripció sobre el connector
++Comment[ca@valencia]=Ací va una breu descripció sobre el connector
+ Comment[da]=Din korte beskrivelse af pluginet skal være her
+ Comment[de]=Ihre Kurzbeschreibung des Moduls gehört hier hinein
+ Comment[el]=Η σύντομή σας περιγραφή σχετικά με το πρόσθετο
+@@ -67,7 +70,7 @@
+ Comment[sr@latin]=Ovde ide kratak opis priključka
+ Comment[sv]=Kort beskrivning av vad insticksprogrammet gör
+ Comment[tr]=Eklenti hakkındaki kısa yorumunuzu buraya ekleyin
+-Comment[uk]=Сюди йде короткий опис втулки
++Comment[uk]=Тут слід вказати ваш короткий опис додатка
+ Comment[x-test]=xxYour short description about the plugin goes herexx
+ Comment[zh_CN]=关于此插件的简短描述
+ Comment[zh_TW]=在這裡描述您的外掛程式
+diff -Nur kdesdk-4.3.4/kate/plugins/htmltools/katehtmltools.desktop kdesdk-4.3.5/kate/plugins/htmltools/katehtmltools.desktop
+--- kdesdk-4.3.4/kate/plugins/htmltools/katehtmltools.desktop	2009-11-27 14:04:16.000000000 +0100
++++ kdesdk-4.3.5/kate/plugins/htmltools/katehtmltools.desktop	2010-01-21 21:48:27.000000000 +0100
+@@ -5,6 +5,7 @@
+ X-Kate-Version=2.9
+ Name=HTML Tools
+ Name[ca]=Eines HTML
++Name[ca@valencia]=Eines HTML
+ Name[cs]=Nástroje HTML
+ Name[da]=HTML-værktøjer
+ Name[de]=HTML-Werkzeuge
+@@ -15,6 +16,7 @@
+ Name[fr]=Outils HTML
+ Name[ga]=Uirlisí HTML
+ Name[gl]=Utilidades HTML
++Name[hu]=HTML-eszközök
+ Name[it]=Strumenti HTML
+ Name[ja]=HTML ツール
+ Name[lv]=HTML rīki
+@@ -37,6 +39,7 @@
+ Name[zh_TW]=HTML 工具
+ Comment=Facilitated insertion of HTML tags
+ Comment[ca]=Facilita la inserció d'etiquetes HTML
++Comment[ca@valencia]=Facilita la inserció d'etiquetes HTML
+ Comment[da]=Lettere indsættelse af HTML-tags
+ Comment[de]=Vereinfachtes Einfügen von HTML-Tags
+ Comment[el]=Διευκόλυνση εισαγωγής ετικετών HTML
+diff -Nur kdesdk-4.3.4/kate/plugins/insertcommand/kateinsertcommand.desktop kdesdk-4.3.5/kate/plugins/insertcommand/kateinsertcommand.desktop
+--- kdesdk-4.3.4/kate/plugins/insertcommand/kateinsertcommand.desktop	2009-11-27 14:04:16.000000000 +0100
++++ kdesdk-4.3.5/kate/plugins/insertcommand/kateinsertcommand.desktop	2010-01-21 21:48:27.000000000 +0100
+@@ -5,6 +5,7 @@
+ X-Kate-Version=2.9
+ Name=Insert Command
+ Name[ca]=Insereix ordre
++Name[ca@valencia]=Insereix orde
+ Name[cs]=Vložit příkaz
+ Name[da]=Indsæt kommando
+ Name[de]=Befehlseingabe
+@@ -15,6 +16,7 @@
+ Name[fr]=Insérer une commande
+ Name[ga]=Ionsáigh Ordú
+ Name[gl]=Inserción de ordes
++Name[hu]=Parancsbeszúró
+ Name[it]=Inserimento dei comandi
+ Name[ja]=コマンド挿入
+ Name[lv]=Ievietot komandu
+@@ -38,6 +40,7 @@
+ Name[zh_TW]=插入指令
+ Comment=Insert shell command output into a document
+ Comment[ca]=Insereix la sortida d'ordres de la consola en un document
++Comment[ca@valencia]=Insereix l'eixida d'ordes de la consola en un document
+ Comment[da]=Indsæt output fra skalkommando i et dokument
+ Comment[de]=Fügt die Ausgabe eines Shell-Befehls in das Dokument ein
+ Comment[el]=Εισαγωγή εξόδου εντολής κελύφους σε ένα έγγραφο
+diff -Nur kdesdk-4.3.4/kate/plugins/katebuild-plugin/katebuildplugin.desktop kdesdk-4.3.5/kate/plugins/katebuild-plugin/katebuildplugin.desktop
+--- kdesdk-4.3.4/kate/plugins/katebuild-plugin/katebuildplugin.desktop	2009-11-27 14:04:16.000000000 +0100
++++ kdesdk-4.3.5/kate/plugins/katebuild-plugin/katebuildplugin.desktop	2010-01-21 21:48:27.000000000 +0100
+@@ -6,6 +6,7 @@
+ X-Kate-Version=2.9
+ Name=Build Plugin
+ Name[ca]=Connector de construcció
++Name[ca@valencia]=Connector de construcció
+ Name[cs]=Modul pro build
+ Name[da]=Bygge-plugin
+ Name[de]=Erstellen-Modul
+@@ -16,6 +17,7 @@
+ Name[fr]=Module externe de compilation
+ Name[ga]=Breiseán Tógála
+ Name[gl]=Extensión de construción
++Name[hu]=Lefordító bővítmény
+ Name[it]=Estensione di generazione
+ Name[ja]=ビルドプラグイン
+ Name[lv]=Build spraudnis
+@@ -38,6 +40,7 @@
+ Name[zh_TW]=編譯外掛程式
+ Comment=Compile or Make and parse error messages
+ Comment[ca]=Compila o construeix amb Make i analitza els missatges d'error
++Comment[ca@valencia]=Compila o construeix amb Make i analitza els missatges d'error
+ Comment[da]=Oversættelse eller Make og fortolkning af fejlmeddelelser
+ Comment[de]=Kompilieren oder Make aufrufen und Fehlermeldungen ausgeben
+ Comment[el]=Σφάλματα μηνυμάτων μεταγλώττισης ή εκτέλεσης Make και ανάλυσης
+diff -Nur kdesdk-4.3.4/kate/plugins/kate-ctags/katectagsplugin.desktop kdesdk-4.3.5/kate/plugins/kate-ctags/katectagsplugin.desktop
+--- kdesdk-4.3.4/kate/plugins/kate-ctags/katectagsplugin.desktop	2009-11-27 14:04:16.000000000 +0100
++++ kdesdk-4.3.5/kate/plugins/kate-ctags/katectagsplugin.desktop	2010-01-21 21:48:27.000000000 +0100
+@@ -6,6 +6,7 @@
+ X-Kate-Version=2.9
+ Name=CTags Plugin
+ Name[ca]=Connector CTags
++Name[ca@valencia]=Connector CTags
+ Name[cs]=Modul CTags
+ Name[da]=Plugin til CTags
+ Name[de]=CTags-Modul
+@@ -42,6 +43,7 @@
+ Name[zh_TW]=CTags 外掛程式
+ Comment=Look up definitions/declarations with CTags
+ Comment[ca]=Cerca definicions/declaracions amb CTags
++Comment[ca@valencia]=Cerca definicions/declaracions amb CTags
+ Comment[da]=Slå definitioner/erklæringer op med CTags
+ Comment[de]=Definition/Deklaration mit CTags nachschauen
+ Comment[el]=Αναζήτηση ορισμών/δηλώσεων με το CTags
+diff -Nur kdesdk-4.3.4/kate/plugins/kjswrapper/samples/katekjsconsolewindow.desktop kdesdk-4.3.5/kate/plugins/kjswrapper/samples/katekjsconsolewindow.desktop
+--- kdesdk-4.3.4/kate/plugins/kjswrapper/samples/katekjsconsolewindow.desktop	2009-11-27 14:04:16.000000000 +0100
++++ kdesdk-4.3.5/kate/plugins/kjswrapper/samples/katekjsconsolewindow.desktop	2010-01-21 21:48:27.000000000 +0100
+@@ -6,6 +6,7 @@
+ X-Kate-PluginName=katekjsconsolewindow
+ Name=Kate Javascript Console Window
+ Name[ca]=Finestra de la consola JavaScript del Kate
++Name[ca@valencia]=Finestra de la consola JavaScript del Kate
+ Name[da]=Kate konsolvindue til JavaScript
+ Name[de]=Kate-Fenster für JavaScript-Konsole
+ Name[el]=Παράθυρο κονσόλας Javascript του Kate
+@@ -32,7 +33,7 @@
+ Name[pt_BR]=Janela do Console de JavaScript do Kate
+ Name[ru]=Окно консоли Javascript Kate
+ Name[sr]=Кејтин прозор јаваскриптног конзоле
+-Name[sr@latin]=Katein prozor javascript konzole
++Name[sr@latin]=Katein prozor JavaScript konzole
+ Name[sv]=Kate Javaskript terminalfönster
+ Name[tr]=Kate Javascript Uçbirim Penceresi
+ Name[uk]=Вікно консолі Javascript Kate
+diff -Nur kdesdk-4.3.4/kate/plugins/kjswrapper/samples/katekjsselect.desktop kdesdk-4.3.5/kate/plugins/kjswrapper/samples/katekjsselect.desktop
+--- kdesdk-4.3.4/kate/plugins/kjswrapper/samples/katekjsselect.desktop	2009-11-27 14:04:16.000000000 +0100
++++ kdesdk-4.3.5/kate/plugins/kjswrapper/samples/katekjsselect.desktop	2010-01-21 21:48:27.000000000 +0100
+@@ -6,6 +6,7 @@
+ X-Kate-PluginName=katekjsselect
+ Name=Select Smallest Enclosing Block
+ Name[ca]=Selecciona el bloc de tancament més petit
++Name[ca@valencia]=Selecciona el bloc de tancament més petit
+ Name[da]=Vælg mindste omsluttende blok
+ Name[de]=Wählt den kleinsten umgebenden Block
+ Name[el]=Επιλογή μικρότερου εσώκλειστου τμήματος
+diff -Nur kdesdk-4.3.4/kate/plugins/kjswrapper/samples/katekjstest1.desktop kdesdk-4.3.5/kate/plugins/kjswrapper/samples/katekjstest1.desktop
+--- kdesdk-4.3.4/kate/plugins/kjswrapper/samples/katekjstest1.desktop	2009-11-27 14:04:16.000000000 +0100
++++ kdesdk-4.3.5/kate/plugins/kjswrapper/samples/katekjstest1.desktop	2010-01-21 21:48:27.000000000 +0100
+@@ -6,6 +6,7 @@
+ X-Kate-PluginName=katekjstest1
+ Name=Kate KJS Test 1
+ Name[ca]=Prova 1 del KJS per al Kate
++Name[ca@valencia]=Prova 1 del KJS per al Kate
+ Name[da]=Kate KJS Test 1
+ Name[de]=Kate KJS-Test 1
+ Name[el]=Kate KJS δοκιμή 1
+@@ -42,6 +43,7 @@
+ Name[zh_TW]=Kate KJS 測試 1
+ Comment=Test  for the KJS Wrapper
+ Comment[ca]=Prova de l'embolcall KJS
++Comment[ca@valencia]=Prova de l'embolcall KJS
+ Comment[da]=Test til KJS-wrapperen
+ Comment[de]=Test für des KJS-Wrapper
+ Comment[el]=Δοκιμή περιβλήματος του KJS
+diff -Nur kdesdk-4.3.4/kate/plugins/konsole/katekonsoleplugin.desktop kdesdk-4.3.5/kate/plugins/konsole/katekonsoleplugin.desktop
+--- kdesdk-4.3.4/kate/plugins/konsole/katekonsoleplugin.desktop	2009-11-27 14:04:17.000000000 +0100
++++ kdesdk-4.3.5/kate/plugins/konsole/katekonsoleplugin.desktop	2010-01-21 21:48:27.000000000 +0100
+@@ -5,6 +5,7 @@
+ X-Kate-Version=2.8
+ Name=Terminal tool view
+ Name[ca]=Eina de vista del terminal
++Name[ca@valencia]=Eina de vista del terminal
+ Name[da]=Terminalværktøjsvisning
+ Name[de]=Werkzeugansicht für Terminal
+ Name[el]=Προβολή εργαλείου τερματικού
+@@ -39,6 +40,7 @@
+ Name[zh_TW]=終端機工具檢視
+ Comment=Toolview embedding a terminal widget
+ Comment[ca]=Eina de vista que incrusta un estri de terminal
++Comment[ca@valencia]=Eina de vista que incrusta un estri de terminal
+ Comment[da]=Værktøjsvisning til indlejring af en terminalkontrol
+ Comment[de]=Werkzeugansicht, die ein Terminalelement einbettet
+ Comment[el]=Προβολή εργαλείου που ενσωματώνει ένα συστατικό τερματικού
+@@ -62,8 +64,8 @@
+ Comment[pt]=Área de ferramentas que incorpora uma consola
+ Comment[pt_BR]=Área de ferramentas que incorpora um console
+ Comment[ru]=Служебная панель с консолью
+-Comment[sr]=Виџет угњежденог терминала
+-Comment[sr@latin]=Vidžet ugnježdenog terminala
++Comment[sr]=Виџет угнежђеног терминала
++Comment[sr@latin]=Vidžet ugnežđenog terminala
+ Comment[sv]=Verktygsvy med en inbäddad grafisk terminalkomponent
+ Comment[tr]=Gömülü bir uçbirim parçacığı aracı
+ Comment[uk]=Вбудування віджета термінала у інструменти
+diff -Nur kdesdk-4.3.4/kate/plugins/kpybrowser/katepybrowse.desktop kdesdk-4.3.5/kate/plugins/kpybrowser/katepybrowse.desktop
+--- kdesdk-4.3.4/kate/plugins/kpybrowser/katepybrowse.desktop	2009-11-27 14:04:16.000000000 +0100
++++ kdesdk-4.3.5/kate/plugins/kpybrowser/katepybrowse.desktop	2010-01-21 21:48:27.000000000 +0100
+@@ -6,6 +6,7 @@
+ X-Kate-Version=2.9
+ Name=Kate Python Browser Plugin
+ Name[ca]=Connector de navegació de Python per al Kate
++Name[ca@valencia]=Connector de navegació de Python per al Kate
+ Name[da]=Kate Python-browser-plugin
+ Name[de]=Kate-Modul für einen Python-Browser
+ Name[el]=Πρόσθετο περιήγησης Python του Kate
+@@ -42,6 +43,7 @@
+ Name[zh_TW]=Kate Python 瀏覽器外掛程式
+ Comment=A Python browser plugin for Kate
+ Comment[ca]=Un connector de navegació de Python per al Kate
++Comment[ca@valencia]=Un connector de navegació de Python per al Kate
+ Comment[da]=Et Python-browser-plugin til Kate
+ Comment[de]=Ein Python-Browser-Module für Kate
+ Comment[el]=Ένα πρόσθετο περιήγησης Python για το Kate
+diff -Nur kdesdk-4.3.4/kate/plugins/kpybrowser/kpybrowser.desktop kdesdk-4.3.5/kate/plugins/kpybrowser/kpybrowser.desktop
+--- kdesdk-4.3.4/kate/plugins/kpybrowser/kpybrowser.desktop	2009-11-27 14:04:16.000000000 +0100
++++ kdesdk-4.3.5/kate/plugins/kpybrowser/kpybrowser.desktop	2010-01-21 21:48:27.000000000 +0100
+@@ -6,6 +6,7 @@
+ X-Kate-Version=3.0
+ Name=KPyBrowser
+ Name[ca]=KPyBrowser
++Name[ca@valencia]=KPyBrowser
+ Name[cs]=KPyBrowser
+ Name[da]=KPyBrowser
+ Name[de]=KPyBrowser
+@@ -44,6 +45,7 @@
+ Name[zh_TW]=KPyBrowser
+ Comment=KPyBrowser
+ Comment[ca]=KPyBrowser
++Comment[ca@valencia]=KPyBrowser
+ Comment[cs]=KPyBrowser
+ Comment[da]=KPyBrowser
+ Comment[de]=KPyBrowser
+@@ -54,6 +56,7 @@
+ Comment[fr]=KPyBrowser
+ Comment[ga]=KPyBrowser
+ Comment[gl]=KPyBrowser
++Comment[hu]=KPyBrowser
+ Comment[it]=KPyBrowser
+ Comment[ja]=KPyBrowser
+ Comment[lv]=KPyBrowser
+diff -Nur kdesdk-4.3.4/kate/plugins/kttsd/kate_kttsd.desktop kdesdk-4.3.5/kate/plugins/kttsd/kate_kttsd.desktop
+--- kdesdk-4.3.4/kate/plugins/kttsd/kate_kttsd.desktop	2009-11-27 14:04:16.000000000 +0100
++++ kdesdk-4.3.5/kate/plugins/kttsd/kate_kttsd.desktop	2010-01-21 21:48:27.000000000 +0100
+@@ -7,6 +7,7 @@
+ Icon=kttsd
+ Name=KTextEditor KTTSD Plugin
+ Name[ca]=Connector KTextEditor KTTSD
++Name[ca@valencia]=Connector KTextEditor KTTSD
+ Name[da]=KTextEditor KTTSD-plugin
+ Name[de]=KTextEditor-Modul für KTTSD
+ Name[el]=Πρόσθετο KTTSD του KTextEditor
+@@ -15,6 +16,7 @@
+ Name[et]=KTextEditori KTTSD plugin
+ Name[fr]=Module KTTSD pour KTextEditor
+ Name[gl]=Extensión de KTTSD para KTextEditor
++Name[hu]=KTextEditor szövegfelolvasó bővítmény
+ Name[it]=Estensione KTTSD di KTextEditor
+ Name[ja]=KTextEditor KTTSD プラグイン
+ Name[lv]=KTextEditor KTTSD spraudnis
+@@ -30,12 +32,13 @@
+ Name[sr@latin]=Priključak uređivača teksta za KTTSD
+ Name[sv]=KTTSD-insticksprogram för Ktexteditor
+ Name[tr]=KTextEditor KTTSD Eklentisi
+-Name[uk]=Втулок KTextEditor KTTSD
++Name[uk]=Додаток KTextEditor KTTSD
+ Name[x-test]=xxKTextEditor KTTSD Pluginxx
+ Name[zh_CN]=KTextEditor KTTSD 插件
+ Name[zh_TW]=KTextEditor KTTSD 外掛程式
+ Comment=Adds a menu entry for speaking the text
+ Comment[ca]=Afegeix una entrada al menú per parlar el text
++Comment[ca@valencia]=Afig una entrada al menú per parlar el text
+ Comment[da]=Tilføjer en menu til oplæsning af tekst
+ Comment[de]=Fügt einen Menüeintrag zum Vorlesen des Textes hinzu
+ Comment[el]=Προσθέτει μία καταχώρηση στο μενού για την εκφώνηση κειμένου
+@@ -44,6 +47,7 @@
+ Comment[et]=Lisab menüükirje teksti kõnelemiseks
+ Comment[fr]=Ajoute une ligne de menu pour énoncer le texte
+ Comment[gl]=Engade unha entrada no menú para falar o texto
++Comment[hu]=Menübejegyzés szövegfelolvasáshoz
+ Comment[it]=Aggiunge una voce del menu per pronunciare il testo
+ Comment[ja]=メニューにテキストを読み上げるための項目を追加します
+ Comment[lv]=Pievieno izvēlnes ierakstu, kas izrunā tekstu
+diff -Nur kdesdk-4.3.4/kate/plugins/mailfiles/katemailfilesplugin.desktop kdesdk-4.3.5/kate/plugins/mailfiles/katemailfilesplugin.desktop
+--- kdesdk-4.3.4/kate/plugins/mailfiles/katemailfilesplugin.desktop	2009-11-27 14:04:16.000000000 +0100
++++ kdesdk-4.3.5/kate/plugins/mailfiles/katemailfilesplugin.desktop	2010-01-21 21:48:27.000000000 +0100
+@@ -5,6 +5,7 @@
+ X-Kate-Version=2.8
+ Name=Mail files
+ Name[ca]=Envia fitxers per correu
++Name[ca@valencia]=Envia fitxers per correu
+ Name[cs]=Soubory e-mailu
+ Name[da]=E-mail filer
+ Name[de]=Mail-Dateien
+@@ -43,6 +44,7 @@
+ Name[zh_TW]=郵件檔案
+ Comment=Send files via email
+ Comment[ca]=Envia fitxers per correu electrònic
++Comment[ca@valencia]=Envia fitxers per correu electrònic
+ Comment[cs]=Poslat soubory přes e-mail
+ Comment[da]=Send filer via e-mail
+ Comment[de]=Dateien per E-Mail versenden
+@@ -52,6 +54,7 @@
+ Comment[et]=Failide saatmine e-postiga
+ Comment[fr]=Envoie des fichiers par courrier électronique
+ Comment[gl]=Envía os ficheiros por correo electrónico
++Comment[hu]=Fájlküldés e-mailben
+ Comment[it]=Invia file per posta elettronica
+ Comment[ja]=ファイルをメールで送信します
+ Comment[lv]=Sūta failus pa e-pastu
+diff -Nur kdesdk-4.3.4/kate/plugins/openheader/kateopenheader.desktop kdesdk-4.3.5/kate/plugins/openheader/kateopenheader.desktop
+--- kdesdk-4.3.4/kate/plugins/openheader/kateopenheader.desktop	2009-11-27 14:04:17.000000000 +0100
++++ kdesdk-4.3.5/kate/plugins/openheader/kateopenheader.desktop	2010-01-21 21:48:27.000000000 +0100
+@@ -5,6 +5,7 @@
+ X-Kate-Version=2.8
+ Name=Open Header
+ Name[ca]=Obre capçaleres
++Name[ca@valencia]=Obri capçaleres
+ Name[cs]=Otevřít hlavičku
+ Name[da]=Åbn headerfil
+ Name[de]=Header öffnen
+@@ -15,6 +16,7 @@
+ Name[fr]=Ouvrir un fichier d'en-tête
+ Name[ga]=Oscail Comhad Ceanntáisc
+ Name[gl]=Abrir a cabeceira
++Name[hu]=Fejlécfájlmegnyitó
+ Name[it]=Apri intestazioni
+ Name[ja]=オープンヘッダ
+ Name[lv]=Atvērt definīciju
+@@ -37,6 +39,7 @@
+ Name[zh_TW]=開啟標頭
+ Comment=Opens the corresponding .h/[.cpp|.c] file
+ Comment[ca]=Obre el fitxer .h/[.cpp|.c] corresponent
++Comment[ca@valencia]=Obri el fitxer .h/[.cpp|.c] corresponent
+ Comment[da]=Åbner den tilhørende .h/[.cpp|.c]-fil
+ Comment[de]=Öffnet die zusammengehörigen .h/[.cpp|.c]-Dateien
+ Comment[el]=Άνοιγμα του αντίστοιχου αρχείου .h/[.cpp|.c]
+diff -Nur kdesdk-4.3.4/kate/plugins/quickdocumentswitcher/katequickdocumentswitcher.desktop kdesdk-4.3.5/kate/plugins/quickdocumentswitcher/katequickdocumentswitcher.desktop
+--- kdesdk-4.3.4/kate/plugins/quickdocumentswitcher/katequickdocumentswitcher.desktop	2009-11-27 14:04:16.000000000 +0100
++++ kdesdk-4.3.5/kate/plugins/quickdocumentswitcher/katequickdocumentswitcher.desktop	2010-01-21 21:48:27.000000000 +0100
+@@ -5,6 +5,7 @@
+ X-Kate-Version=2.8
+ Name=Quick Document switcher
+ Name[ca]=Commutador ràpid de documents
++Name[ca@valencia]=Commutador ràpid de documents
+ Name[da]=Hurtig dokumentskifter
+ Name[de]=Schnellwechsler für Dokumente
+ Name[el]=Γρήγορη εναλλαγή εγγράφου
+@@ -14,6 +15,7 @@
+ Name[fr]=Commutateur rapide de documents
+ Name[ga]=Mearmhalairt cháipéise
+ Name[gl]=Mudanza rápida de documento
++Name[hu]=Gyors dokumentumváltó
+ Name[it]=Cambio veloce dei documenti
+ Name[ja]=クイック文書スイッチャー
+ Name[lv]=Ātrais dokumentu pārslēdzējs
+@@ -36,6 +38,7 @@
+ Name[zh_TW]=快速文件切換器
+ Comment=Quickly switch to another already opened document
+ Comment[ca]=Commuta ràpidament a un altre document obert prèviament
++Comment[ca@valencia]=Commuta ràpidament a un altre document obert prèviament
+ Comment[da]=Skift hurtigt til et andet allerede åbnet dokument
+ Comment[de]=Zu einem anderen geöffneten Dokument springen
+ Comment[el]=Γρήγορη εναλλαγή σε κάποιο άλλο ήδη ανοιχτό έγγραφο
+diff -Nur kdesdk-4.3.4/kate/plugins/skeleton/kateexternaltoolsplugin.desktop kdesdk-4.3.5/kate/plugins/skeleton/kateexternaltoolsplugin.desktop
+--- kdesdk-4.3.4/kate/plugins/skeleton/kateexternaltoolsplugin.desktop	2009-10-02 10:21:38.000000000 +0200
++++ kdesdk-4.3.5/kate/plugins/skeleton/kateexternaltoolsplugin.desktop	2010-01-21 21:48:27.000000000 +0100
+@@ -6,6 +6,7 @@
+ Name=External Tools
+ Name[be]=Знешнія інструменты
+ Name[ca]=Eines externes
++Name[ca@valencia]=Eines externes
+ Name[cs]=Externí nástroje
+ Name[da]=Eksterne værktøjer
+ Name[de]=Externe Programme
+@@ -46,6 +47,7 @@
+ Comment=External Tools
+ Comment[be]=Знешнія інструменты
+ Comment[ca]=Eines externes
++Comment[ca@valencia]=Eines externes
+ Comment[cs]=Externí nástroje
+ Comment[da]=Eksterne værktøjer
+ Comment[de]=Externe Programme
+diff -Nur kdesdk-4.3.4/kate/plugins/snippets/katesnippets.desktop kdesdk-4.3.5/kate/plugins/snippets/katesnippets.desktop
+--- kdesdk-4.3.4/kate/plugins/snippets/katesnippets.desktop	2009-11-27 14:04:16.000000000 +0100
++++ kdesdk-4.3.5/kate/plugins/snippets/katesnippets.desktop	2010-01-21 21:48:27.000000000 +0100
+@@ -5,6 +5,7 @@
+ X-Kate-Version=2.9
+ Name=Text Snippets
+ Name[ca]=Retalls de text
++Name[ca@valencia]=Retalls de text
+ Name[cs]=Textové úryvky
+ Name[da]=Tekststumper
+ Name[de]=Textschnipsel
+@@ -15,6 +16,7 @@
+ Name[fr]=Fragments de texte
+ Name[ga]=Blúirí Téacs
+ Name[gl]=Retallos de texto
++Name[hu]=Szövegdarabok
+ Name[it]=Frammenti
+ Name[ja]=定型表現
+ Name[lv]=Teksta fragmenti
+@@ -37,6 +39,7 @@
+ Name[zh_TW]=文字片段
+ Comment=Configurable Text Snippets
+ Comment[ca]=Retalls de text configurables
++Comment[ca@valencia]=Retalls de text configurables
+ Comment[da]=Konfigurerbare tekststumper
+ Comment[de]=Konfigurierbare Textschnipsel
+ Comment[el]=Ρυθμιζόμενα δείγματα κειμένου
+@@ -46,6 +49,7 @@
+ Comment[fr]=Fragments de texte configurables
+ Comment[ga]=Blúirí Inchumraithe Téacs
+ Comment[gl]=Retallos de texto configurábeis
++Comment[hu]=Egyedi szövegdarabok
+ Comment[it]=Frammenti di testo configurabili
+ Comment[ja]=よく使う表現を登録しておきます
+ Comment[lv]=Konfigurējami teksta fragmenti
+diff -Nur kdesdk-4.3.4/kate/plugins/symbolviewer/katesymbolviewer.desktop kdesdk-4.3.5/kate/plugins/symbolviewer/katesymbolviewer.desktop
+--- kdesdk-4.3.4/kate/plugins/symbolviewer/katesymbolviewer.desktop	2009-11-27 14:04:16.000000000 +0100
++++ kdesdk-4.3.5/kate/plugins/symbolviewer/katesymbolviewer.desktop	2010-01-21 21:48:27.000000000 +0100
+@@ -5,6 +5,7 @@
+ X-Kate-Version=2.8
+ Name=Symbol Viewer
+ Name[ca]=Visualitzador de símbols
++Name[ca@valencia]=Visualitzador de símbols
+ Name[cs]=Prohlížeč symbolů
+ Name[da]=Symbolfremviser
+ Name[de]=Symbolbetrachter
+@@ -15,6 +16,7 @@
+ Name[fr]=Afficheur de symboles
+ Name[ga]=Amharcán Siombailí
+ Name[gl]=Visor de símbolos
++Name[hu]=Szimbólumböngésző
+ Name[it]=Visore di simboli
+ Name[ja]=シンボルビューア
+ Name[lv]=Simbolu skatītājs
+@@ -37,6 +39,7 @@
+ Name[zh_TW]=符號檢視器
+ Comment=Extract and show reference symbols from source
+ Comment[ca]=Extreu i visualitza símbols de referència des del codi font
++Comment[ca@valencia]=Extreu i visualitza símbols de referència des del codi font
+ Comment[da]=Udtræk og vis referencesymboler fra kildekode
+ Comment[de]=Referenzsymbole aus Quelldateien extrahieren und anzeigen
+ Comment[el]=Εξαγωγή και εμφάνιση συμβόλων αναφοράς από τον πηγαίο κώδικα
+@@ -46,6 +49,7 @@
+ Comment[fr]=Extrait et affiche des symboles de référence provenant du source
+ Comment[ga]=Baineann an breiseán seo siombailí tagartha amach as an mbunchód agus taispeánann sé iad
+ Comment[gl]=Extrae e mostra os símbolos a partir das fontes
++Comment[hu]=Referencialista készítése forráskódhoz
+ Comment[it]=Estrae e visualizza i simboli di riferimento del codice sorgente
+ Comment[ja]=ソースの参照シンボルを表示します
+ Comment[lv]=Šis spraudnis no pirmkoda izdala sibmolus un parāda tos
+diff -Nur kdesdk-4.3.4/kate/plugins/tabbarextension/katetabbarextension.desktop kdesdk-4.3.5/kate/plugins/tabbarextension/katetabbarextension.desktop
+--- kdesdk-4.3.4/kate/plugins/tabbarextension/katetabbarextension.desktop	2009-11-27 14:04:16.000000000 +0100
++++ kdesdk-4.3.5/kate/plugins/tabbarextension/katetabbarextension.desktop	2010-01-21 21:48:27.000000000 +0100
+@@ -5,6 +5,7 @@
+ X-Kate-Version=2.8
+ Name=Tab Bar
+ Name[ca]=Barra de pestanyes
++Name[ca@valencia]=Barra de pestanyes
+ Name[cs]=Lišta karet
+ Name[da]=Fanebladslinje
+ Name[de]=Unterfensterleiste
+@@ -14,6 +15,7 @@
+ Name[et]=Kaardiriba
+ Name[fr]=Barre d'onglets
+ Name[gl]=Barra de páxinas
++Name[hu]=Lapozósáv
+ Name[it]=Barra di schede
+ Name[ja]=タブバー
+ Name[lv]=Ciļņu josla
+@@ -37,6 +39,7 @@
+ Name[zh_TW]=分頁列
+ Comment=Adds a tab bar to Kate's main window
+ Comment[ca]=Afegeix una barra de pestanyes a la finestra principal del Kate
++Comment[ca@valencia]=Afig una barra de pestanyes a la finestra principal del Kate
+ Comment[da]=Tilføjer en fanebladslinje til Kates hovedvindue
+ Comment[de]=Fügt dem Hauptfenster von Kate eine Unterfensterleiste hinzu
+ Comment[el]=Προσθέτει μια γραμμή καρτελών στο κύριο παράθυρο του Kate
+diff -Nur kdesdk-4.3.4/kate/plugins/textfilter/katetextfilter.desktop kdesdk-4.3.5/kate/plugins/textfilter/katetextfilter.desktop
+--- kdesdk-4.3.4/kate/plugins/textfilter/katetextfilter.desktop	2009-11-27 14:04:16.000000000 +0100
++++ kdesdk-4.3.5/kate/plugins/textfilter/katetextfilter.desktop	2010-01-21 21:48:27.000000000 +0100
+@@ -5,6 +5,7 @@
+ X-Kate-Version=2.8
+ Name=Text Filter
+ Name[ca]=Filtre de text
++Name[ca@valencia]=Filtre de text
+ Name[cs]=Textový filtr
+ Name[da]=Tekstfilter
+ Name[de]=Textfilter
+@@ -15,6 +16,7 @@
+ Name[fr]=Filtre de texte
+ Name[ga]=Scagaire Téacs
+ Name[gl]=Filtro de texto
++Name[hu]=Szövegszűrő
+ Name[it]=Filtro di testo
+ Name[ja]=テキストフィルタ
+ Name[lv]=Teksta filtrs
+@@ -37,6 +39,7 @@
+ Name[zh_TW]=文字過濾器
+ Comment=Easy text filtering
+ Comment[ca]=Filtrat fàcil de text
++Comment[ca@valencia]=Filtrat fàcil de text
+ Comment[cs]=Jednoduché filtrování textu
+ Comment[da]=Let tekst filtrering
+ Comment[de]=Einfacher Textfilter
+diff -Nur kdesdk-4.3.4/kate/plugins/xmlcheck/katexmlcheck.desktop kdesdk-4.3.5/kate/plugins/xmlcheck/katexmlcheck.desktop
+--- kdesdk-4.3.4/kate/plugins/xmlcheck/katexmlcheck.desktop	2009-11-27 14:04:16.000000000 +0100
++++ kdesdk-4.3.5/kate/plugins/xmlcheck/katexmlcheck.desktop	2010-01-21 21:48:27.000000000 +0100
+@@ -5,6 +5,7 @@
+ X-Kate-Version=2.9
+ Name=XML Validation
+ Name[ca]=Validació d'XML
++Name[ca@valencia]=Validació d'XML
+ Name[cs]=Validace XML
+ Name[da]=XML-validering
+ Name[de]=XML-Überprüfung
+@@ -15,6 +16,7 @@
+ Name[fr]=Validation du XML
+ Name[ga]=Bailíochtú XML
+ Name[gl]=Validación de XML
++Name[hu]=XML-ellenőrző
+ Name[it]=Validazione XML
+ Name[ja]=XML 検証
+ Name[lv]=XML validators
+@@ -37,6 +39,7 @@
+ Name[zh_TW]=XML 檢查器
+ Comment=Validates XML files using xmllint
+ Comment[ca]=Valida els fitxers XML usant el xmllint
++Comment[ca@valencia]=Valida els fitxers XML usant el xmllint
+ Comment[da]=Validerer XML-filer ved brug af xmllint
+ Comment[de]=Überprüft XML-Dateien mit xmllint
+ Comment[el]=Επαλήθευση αρχείων XML με χρήση του xmllint
+diff -Nur kdesdk-4.3.4/kate/plugins/xmltools/katexmltools.desktop kdesdk-4.3.5/kate/plugins/xmltools/katexmltools.desktop
+--- kdesdk-4.3.4/kate/plugins/xmltools/katexmltools.desktop	2009-11-27 14:04:16.000000000 +0100
++++ kdesdk-4.3.5/kate/plugins/xmltools/katexmltools.desktop	2010-01-21 21:48:27.000000000 +0100
+@@ -5,6 +5,7 @@
+ X-Kate-Version=2.9
+ Name=XML Completion
+ Name[ca]=Compleció XML
++Name[ca@valencia]=Compleció XML
+ Name[cs]=Doplňování XML
+ Name[da]=XML-fuldførelse
+ Name[de]=XML-Vervollständigung
+@@ -15,6 +16,7 @@
+ Name[fr]=Complétement du XML
+ Name[ga]=Comhlánú XML
+ Name[gl]=Completación de XML
++Name[hu]=XML-kiegészítő
+ Name[it]=Completamento XML
+ Name[ja]=XML 補完
+ Name[lv]=XML pabeigšana
+@@ -36,6 +38,7 @@
+ Name[zh_TW]=XML 補完
+ Comment=Lists XML elements, attributes, attribute values and entities allowed by DTD
+ Comment[ca]=Llista els elements XML, atributs, valors dels atributs i entitats permeses pel DTD
++Comment[ca@valencia]=Llista els elements XML, atributs, valors dels atributs i entitats permeses pel DTD
+ Comment[da]=Lister XML-elementer, attributter, attributværdier og elementer tilladt af DTD
+ Comment[de]=Zeigt XML-Elemente, Attribute, Attributwerte und Entitäten an, die von der DTD definiert werden
+ Comment[el]=Εμφάνιση στοιχείων XML, ιδιοτήτων, τιμών ιδιοτήτων και οντοτήτων που επιτρέπονται από το DTD
+diff -Nur kdesdk-4.3.4/kbugbuster/kbugbuster.desktop kdesdk-4.3.5/kbugbuster/kbugbuster.desktop
+--- kdesdk-4.3.4/kbugbuster/kbugbuster.desktop	2009-10-02 10:21:41.000000000 +0200
++++ kdesdk-4.3.5/kbugbuster/kbugbuster.desktop	2010-01-21 21:48:29.000000000 +0100
+@@ -7,6 +7,7 @@
+ GenericName=KDE Bug Management
+ GenericName[af]=Kde Fout Bestuuring
+ GenericName[ca]=Gestió d'errors a KDE
++GenericName[ca@valencia]=Gestió d'errors a KDE
+ GenericName[cs]=Správa chyb KDE
+ GenericName[cy]=Rheolaeth Namau KDE
+ GenericName[da]=KDE Fejlretningshåndtering
+@@ -64,6 +65,7 @@
+ Name[af]=K-fout-buster
+ Name[br]=KBugBuster
+ Name[ca]=KBugBuster
++Name[ca@valencia]=KBugBuster
+ Name[cs]=KBugBuster
+ Name[cy]=KNamWasgydd
+ Name[da]=KBugBuster
+diff -Nur kdesdk-4.3.4/kbugbuster/kresources/bugzilla.desktop kdesdk-4.3.5/kbugbuster/kresources/bugzilla.desktop
+--- kdesdk-4.3.4/kbugbuster/kresources/bugzilla.desktop	2009-10-02 10:21:41.000000000 +0200
++++ kdesdk-4.3.5/kbugbuster/kresources/bugzilla.desktop	2010-01-21 21:48:29.000000000 +0100
+@@ -1,6 +1,7 @@
+ [Desktop Entry]
+ Name=Bugzilla To-do List
+ Name[ca]=Llista de pendents de Bugzilla
++Name[ca@valencia]=Llista de pendents de Bugzilla
+ Name[cs]=Seznam úkolů (Bugzilla)
+ Name[da]=Bugzilla gøremålsliste
+ Name[de]=Bugzilla Todo-Liste
+diff -Nur kdesdk-4.3.4/kcachegrind/kcachegrind/kcachegrind.desktop kdesdk-4.3.5/kcachegrind/kcachegrind/kcachegrind.desktop
+--- kdesdk-4.3.4/kcachegrind/kcachegrind/kcachegrind.desktop	2009-11-27 14:04:17.000000000 +0100
++++ kdesdk-4.3.5/kcachegrind/kcachegrind/kcachegrind.desktop	2010-01-21 21:48:28.000000000 +0100
+@@ -9,6 +9,7 @@
+ Name=KCachegrind
+ Name[br]=KCachegrind
+ Name[ca]=KCachegrind
++Name[ca@valencia]=KCachegrind
+ Name[cs]=KCachegrind
+ Name[cy]=KCachegrind
+ Name[da]=KCachegrind
+@@ -58,6 +59,7 @@
+ Name[zh_TW]=KCachegrind
+ GenericName=Profiler Frontend
+ GenericName[ca]=Interfície de Profiler
++GenericName[ca@valencia]=Interfície de Profiler
+ GenericName[cs]=Rozhraní pro profilaci
+ GenericName[cy]=Blaen-wyneb Proffilydd
+ GenericName[da]=Grænseflade til profilering
+@@ -108,6 +110,7 @@
+ GenericName[zh_TW]=分析器前端
+ Comment=Visualization of Performance Profiling Data
+ Comment[ca]=Visualització de dades de perfilat de rendiment
++Comment[ca@valencia]=Visualització de dades de perfilat de rendiment
+ Comment[cs]=Vizualizace profilovacích dat výkonu
+ Comment[da]=Visualisering af profileringsdata
+ Comment[de]=Visualisierung von Daten des Laufzeitverhaltens eines Programmes
+diff -Nur kdesdk-4.3.4/kdeaccounts-plugin/kdeaccountsplugin.desktop kdesdk-4.3.5/kdeaccounts-plugin/kdeaccountsplugin.desktop
+--- kdesdk-4.3.4/kdeaccounts-plugin/kdeaccountsplugin.desktop	2009-10-02 10:21:40.000000000 +0200
++++ kdesdk-4.3.5/kdeaccounts-plugin/kdeaccountsplugin.desktop	2010-01-21 21:48:28.000000000 +0100
+@@ -1,6 +1,7 @@
+ [Misc]
+ Name=KDE Repository Accounts
+ Name[ca]=Comptes del repositori de KDE
++Name[ca@valencia]=Comptes del repositori de KDE
+ Name[cs]=Účty z KDE repository
+ Name[da]=KDE lager-konti
+ Name[de]=KDE Repositorium-Zugänge
+diff -Nur kdesdk-4.3.4/kioslave/svn/ksvnd/ksvnd.desktop kdesdk-4.3.5/kioslave/svn/ksvnd/ksvnd.desktop
+--- kdesdk-4.3.4/kioslave/svn/ksvnd/ksvnd.desktop	2009-10-02 10:21:41.000000000 +0200
++++ kdesdk-4.3.5/kioslave/svn/ksvnd/ksvnd.desktop	2010-01-21 21:48:29.000000000 +0100
+@@ -3,6 +3,7 @@
+ Name=KDED Subversion Module
+ Name[br]=Mollad Subversion KDED
+ Name[ca]=Mòdul KDED de Subversion
++Name[ca@valencia]=Mòdul KDED de Subversion
+ Name[cs]=KDED Subversion modul
+ Name[da]=KDED Subversion modul
+ Name[de]=Subversion-Unterstützung
+diff -Nur kdesdk-4.3.4/kioslave/svn/svn+file.protocol kdesdk-4.3.5/kioslave/svn/svn+file.protocol
+--- kdesdk-4.3.4/kioslave/svn/svn+file.protocol	2009-10-02 10:21:41.000000000 +0200
++++ kdesdk-4.3.5/kioslave/svn/svn+file.protocol	2010-01-21 21:48:29.000000000 +0100
+@@ -15,6 +15,7 @@
+ Description=Subversion ioslave
+ Description[br]=Sklav E/D Subversion
+ Description[ca]=Ioslave de Subversion
++Description[ca@valencia]=Ioslave de Subversion
+ Description[cs]=Subversion protokol
+ Description[da]=Subversion ioslave
+ Description[de]=Ein-/Ausgabemodul für Subversion
+diff -Nur kdesdk-4.3.4/kioslave/svn/svnhelper/apply_patch.desktop kdesdk-4.3.5/kioslave/svn/svnhelper/apply_patch.desktop
+--- kdesdk-4.3.4/kioslave/svn/svnhelper/apply_patch.desktop	2009-10-02 10:21:41.000000000 +0200
++++ kdesdk-4.3.5/kioslave/svn/svnhelper/apply_patch.desktop	2010-01-21 21:48:29.000000000 +0100
+@@ -7,6 +7,7 @@
+ [Desktop Action Apply]
+ Name=Apply Patch...
+ Name[ca]=Aplica pedaç...
++Name[ca@valencia]=Aplica pedaç...
+ Name[cs]=Aplikovat záplatu...
+ Name[da]=Anvend rettelse...
+ Name[de]=Patch einspielen ...
+@@ -56,6 +57,7 @@
+ Exec=
+ Comment=Apply the patch to another folder/file
+ Comment[ca]=Aplica el pedaç a una altra carpeta o fitxer
++Comment[ca@valencia]=Aplica el pedaç a una altra carpeta o fitxer
+ Comment[cs]=Aplikovat záplatu na jiný soubor/složku
+ Comment[da]=Anvend rettelsen på en anden mappe/fil
+ Comment[de]=Spielt den Patch in einen/eine andere(n) Ordner/Datei ein
+diff -Nur kdesdk-4.3.4/kioslave/svn/svnhelper/subversion.desktop kdesdk-4.3.5/kioslave/svn/svnhelper/subversion.desktop
+--- kdesdk-4.3.4/kioslave/svn/svnhelper/subversion.desktop	2009-10-02 10:21:41.000000000 +0200
++++ kdesdk-4.3.5/kioslave/svn/svnhelper/subversion.desktop	2010-01-21 21:48:29.000000000 +0100
+@@ -4,6 +4,7 @@
+ X-KDE-Submenu=Subversion
+ X-KDE-Submenu[br]=Subversion
+ X-KDE-Submenu[ca]=Subversion
++X-KDE-Submenu[ca@valencia]=Subversion
+ X-KDE-Submenu[cs]=Subversion
+ X-KDE-Submenu[da]=Subversion
+ X-KDE-Submenu[de]=Subversion
+@@ -60,6 +61,7 @@
+ Name=Add to Repository
+ Name[br]=Ouzhpennañ d'an daveiñ
+ Name[ca]=Afegeix al repositori
++Name[ca@valencia]=Afig al repositori
+ Name[cs]=Přidat do repository
+ Name[da]=Tilføj til lager
+ Name[de]=Zum SVN-Archiv hinzufügen
+@@ -111,6 +113,7 @@
+ Name=Delete From Repository
+ Name[br]=Lemel eus an daveiñ
+ Name[ca]=Elimina del repositori
++Name[ca@valencia]=Elimina del repositori
+ Name[cs]=Smazat z repository
+ Name[da]=Slet fra lager
+ Name[de]=Aus dem SVN-Archiv löschen
+@@ -161,6 +164,7 @@
+ [Desktop Action Revert]
+ Name=Revert Local Changes
+ Name[ca]=Reverteix els canvis locals
++Name[ca@valencia]=Reverteix els canvis locals
+ Name[cs]=Vrátit místní změny
+ Name[da]=Vend lokale ændringer om
+ Name[de]=Lokale Änderungen zurücknehmen
+@@ -209,6 +213,7 @@
+ Exec=kio_svn_helper -r %U
+ Comment=Remove any changes made locally. Warning - this cannot be undone.
+ Comment[ca]=Elimina qualsevol canvi local. Avís: No es pot desfer.
++Comment[ca@valencia]=Elimina qualsevol canvi local. Avís: No es pot desfer.
+ Comment[cs]=Odstraní změny provedené lokálně; nelze vrátit, pozor.
+ Comment[da]=Fjern alle ændringer der er lavet lokalt. Advarsel - dette kan ikke fortrydes.
+ Comment[de]=Nimmt alle lokal durchgeführten Änderungen zurück. Warnung: Dieser Vorgang kann nicht rückgängig gemacht werden.
+@@ -255,6 +260,7 @@
+ Name=Rename...
+ Name[br]=Adenvel ...
+ Name[ca]=Reanomena...
++Name[ca@valencia]=Reanomena...
+ Name[cs]=Přejmenovat...
+ Name[cy]=Ail-enwi...
+ Name[da]=Omdøb...
+@@ -307,6 +313,7 @@
+ Exec=kio_svn_helper -R %U
+ Comment=Rename a file locally and in the repository.  Use this rather than adding and deleting to rename a file.
+ Comment[ca]=Reanomena un fitxer localment i en el repositori. Use-ho en comptes d'afegir i eliminar per a reanomenar un fitxer.
++Comment[ca@valencia]=Reanomena un fitxer localment i en el repositori. Use-ho en comptes d'afegir i eliminar per a reanomenar un fitxer.
+ Comment[cs]=Přejmenovat soubor lokálně a v repository. Použijte raději než přidání a smazání souboru k docílení jeho přejmenování.
+ Comment[da]=Omdøb en fil lokalt og i lageret. Brug dette i stedet for at tilføje og slette for at omdøbe en fil.
+ Comment[de]=Benennt eine Datei lokal und im SVN-Archiv um. Verwenden Sie besser diese Funktion zum Umbenennen einer Datei als Hinzufügen und Löschen.
+@@ -353,6 +360,7 @@
+ Name=Import Repository
+ Name[br]=Enporzh an daveiñ
+ Name[ca]=Importa repositori
++Name[ca@valencia]=Importa repositori
+ Name[cs]=Importovat repository
+ Name[da]=Importér lager
+ Name[de]=SVN-Archiv importieren
+@@ -401,6 +409,7 @@
+ Exec=kio_svn_helper -i %U
+ Comment=Put folder into an existing repository to put it under revision control.
+ Comment[ca]=Situa la carpeta en un repositori existent per a posar-la sota el control de revisions.
++Comment[ca@valencia]=Situa la carpeta en un repositori existent per a posar-la sota el control de revisions.
+ Comment[cs]=Zařadit složku do repository a správy verzí
+ Comment[da]=Put mappe ind i et eksisterende lager for at få den ind under revisionskontrol.
+ Comment[de]=Schiebt den Ordner in ein existierendes SVN-Archiv, um ihn in die Versionsverwaltung aufzunehmen.
+@@ -446,6 +455,7 @@
+ [Desktop Action Checkout]
+ Name=Checkout From Repository...
+ Name[ca]=Obtenir del repositori...
++Name[ca@valencia]=Obtindre del repositori...
+ Name[cs]=Získat z repository...
+ Name[da]=Tjek ud fra lager...
+ Name[de]=Aus SVN-Archiv herausholen ...
+@@ -493,6 +503,7 @@
+ Exec=kio_svn_helper -C %U
+ Comment=Checkout out files from an existing repository into this folder.
+ Comment[ca]=Recupera fitxers des d'un repositori existent cap aquesta carpeta.
++Comment[ca@valencia]=Recupera fitxers des d'un repositori existent cap esta carpeta.
+ Comment[cs]=Získat soubory z existující repository do této složky.
+ Comment[da]=Tjek filer ud fra et eksisterende lager til denne mappe.
+ Comment[de]=Legt Dateien aus einem existierenden SVN-Archiv in diesem Ordner ab.
+@@ -540,6 +551,7 @@
+ Name=Switch...
+ Name[br]=Gwintañ ...
+ Name[ca]=Canvia...
++Name[ca@valencia]=Canvia...
+ Name[cs]=Přepnout...
+ Name[da]=Switch...
+ Name[de]=Wechseln (switch) ...
+@@ -588,6 +600,7 @@
+ Icon=svn_switch
+ Comment=Switch given working copy to another branch
+ Comment[ca]=Canvia una còpia de treball indicada a una altra branca
++Comment[ca@valencia]=Canvia una còpia de treball indicada a una altra branca
+ Comment[cs]=Přepnout danou pracovní kopii na jinou větev
+ Comment[da]=Skift given arbejdskopi til en anden gren.
+ Comment[de]=Wechselt von der vorhandenen Arbeitskopie zu einer anderen Verzweigung (branch).
+@@ -635,6 +648,7 @@
+ [Desktop Action Merge]
+ Name=Merge...
+ Name[ca]=Fusiona...
++Name[ca@valencia]=Fusiona...
+ Name[cs]=Sloučit...
+ Name[da]=Indflet...
+ Name[de]=Zusammenführen ...
+@@ -684,6 +698,7 @@
+ Icon=svn_merge
+ Comment=Merge changes between this and another branch
+ Comment[ca]=Fusiona els canvis entre aquesta i una altra branca
++Comment[ca@valencia]=Fusiona els canvis entre esta i una altra branca
+ Comment[cs]=Sloučit změny mezi touto a jinou větví
+ Comment[da]=Indflet ændringer mellem denne og en anden gren
+ Comment[de]=Führt Änderungen aus dieser und einer anderen Verzweigung zusammen
+@@ -731,6 +746,7 @@
+ [Desktop Action Blame]
+ Name=Blame...
+ Name[ca]=Responsabilitza...
++Name[ca@valencia]=Responsabilitza...
+ Name[cs]=Obvinit...
+ Name[da]=Blame...
+ Name[de]=Blame ...
+@@ -777,6 +793,7 @@
+ Icon=svn_blame
+ Comment=See who wrote each line of the file and in what revision
+ Comment[ca]=Veu qui va escriure cada línia del fitxer i en qui l'ha revisat
++Comment[ca@valencia]=Veu qui va escriure cada línia del fitxer i en qui l'ha revisat
+ Comment[cs]=Zobrazit, kdo napsal kterou řádku souboru spolu s revizí
+ Comment[da]=Se hvem der skrev hver linje i filen og i hvilken revision
+ Comment[de]=Zeigt an, wer die Zeilen einer Datei wann geändert hat.
+@@ -823,6 +840,7 @@
+ [Desktop Action CreatePatch]
+ Name=Create Patch...
+ Name[ca]=Crea pedaç...
++Name[ca@valencia]=Crea pedaç...
+ Name[cs]=Vytvořit záplatu...
+ Name[da]=Lav rettelse...
+ Name[de]=Patch erstellen ...
+@@ -874,6 +892,7 @@
+ Name=Export...
+ Name[br]=Ezporzh ...
+ Name[ca]=Exporta...
++Name[ca@valencia]=Exporta...
+ Name[cs]=Exportovat...
+ Name[cy]=Allforio...
+ Name[da]=Eksportér...
+@@ -927,6 +946,7 @@
+ Exec=kio_svn_helper -e %U
+ Comment=Checkout out an unversioned copy of a tree from a repository
+ Comment[ca]=Exporta una còpia sense versió d'un arbre del repositori
++Comment[ca@valencia]=Exporta una còpia sense versió d'un arbre del repositori
+ Comment[cs]=Získat z repository kopii stromu bez verze
+ Comment[da]=Tjek en kopi uden version ud af et træ fra et lager
+ Comment[de]=Herausholen eines Baums aus dem SVN-Archiv ohne Versionsinformationen
+@@ -972,6 +992,7 @@
+ [Desktop Action Diff]
+ Name=Diff (local)
+ Name[ca]=Diff (local)
++Name[ca@valencia]=Diff (local)
+ Name[cs]=Rozdíl (místní)
+ Name[da]=Diff (lokal)
+ Name[de]=Diff (lokal)
+@@ -1021,6 +1042,7 @@
+ Exec=kio_svn_helper -D %U
+ Comment=Show local changes since last update
+ Comment[ca]=Mostra els canvis locals des de l'última actualització
++Comment[ca@valencia]=Mostra els canvis locals des de l'última actualització
+ Comment[cs]=Zobrazit lokální změny od poslední aktualizace
+ Comment[da]=Vis lokale ændringer siden sidste opdatering
+ Comment[de]=Zeigt die lokal durchgeführten Änderungen seit der letzten Aktualisierung
+diff -Nur kdesdk-4.3.4/kioslave/svn/svnhelper/subversion_toplevel.desktop kdesdk-4.3.5/kioslave/svn/svnhelper/subversion_toplevel.desktop
+--- kdesdk-4.3.4/kioslave/svn/svnhelper/subversion_toplevel.desktop	2009-10-02 10:21:41.000000000 +0200
++++ kdesdk-4.3.5/kioslave/svn/svnhelper/subversion_toplevel.desktop	2010-01-21 21:48:29.000000000 +0100
+@@ -10,6 +10,7 @@
+ [Desktop Action Update]
+ Name=SVN Update
+ Name[ca]=Actualitza SVN
++Name[ca@valencia]=Actualitza SVN
+ Name[cs]=SVN update
+ Name[da]=SVN Opdatér
+ Name[de]=Aktualisieren (SVN)
+@@ -61,6 +62,7 @@
+ [Desktop Action Commit]
+ Name=SVN Commit
+ Name[ca]=Entrega SVN
++Name[ca@valencia]=Entrega SVN
+ Name[cs]=SVN commit
+ Name[da]=SVN Commit
+ Name[de]=Einspielen (SVN)
+diff -Nur kdesdk-4.3.4/kioslave/svn/svn+http.protocol kdesdk-4.3.5/kioslave/svn/svn+http.protocol
+--- kdesdk-4.3.4/kioslave/svn/svn+http.protocol	2009-10-02 10:21:41.000000000 +0200
++++ kdesdk-4.3.5/kioslave/svn/svn+http.protocol	2010-01-21 21:48:29.000000000 +0100
+@@ -15,6 +15,7 @@
+ Description=Subversion ioslave
+ Description[br]=Sklav E/D Subversion
+ Description[ca]=Ioslave de Subversion
++Description[ca@valencia]=Ioslave de Subversion
+ Description[cs]=Subversion protokol
+ Description[da]=Subversion ioslave
+ Description[de]=Ein-/Ausgabemodul für Subversion
+diff -Nur kdesdk-4.3.4/kioslave/svn/svn+https.protocol kdesdk-4.3.5/kioslave/svn/svn+https.protocol
+--- kdesdk-4.3.4/kioslave/svn/svn+https.protocol	2009-10-02 10:21:41.000000000 +0200
++++ kdesdk-4.3.5/kioslave/svn/svn+https.protocol	2010-01-21 21:48:29.000000000 +0100
+@@ -15,6 +15,7 @@
+ Description=Subversion ioslave
+ Description[br]=Sklav E/D Subversion
+ Description[ca]=Ioslave de Subversion
++Description[ca@valencia]=Ioslave de Subversion
+ Description[cs]=Subversion protokol
+ Description[da]=Subversion ioslave
+ Description[de]=Ein-/Ausgabemodul für Subversion
+diff -Nur kdesdk-4.3.4/kioslave/svn/svn.protocol kdesdk-4.3.5/kioslave/svn/svn.protocol
+--- kdesdk-4.3.4/kioslave/svn/svn.protocol	2009-10-02 10:21:41.000000000 +0200
++++ kdesdk-4.3.5/kioslave/svn/svn.protocol	2010-01-21 21:48:29.000000000 +0100
+@@ -15,6 +15,7 @@
+ Description=Subversion ioslave
+ Description[br]=Sklav E/D Subversion
+ Description[ca]=Ioslave de Subversion
++Description[ca@valencia]=Ioslave de Subversion
+ Description[cs]=Subversion protokol
+ Description[da]=Subversion ioslave
+ Description[de]=Ein-/Ausgabemodul für Subversion
+diff -Nur kdesdk-4.3.4/kioslave/svn/svn+ssh.protocol kdesdk-4.3.5/kioslave/svn/svn+ssh.protocol
+--- kdesdk-4.3.4/kioslave/svn/svn+ssh.protocol	2009-10-02 10:21:41.000000000 +0200
++++ kdesdk-4.3.5/kioslave/svn/svn+ssh.protocol	2010-01-21 21:48:29.000000000 +0100
+@@ -15,6 +15,7 @@
+ Description=Subversion ioslave
+ Description[br]=Sklav E/D Subversion
+ Description[ca]=Ioslave de Subversion
++Description[ca@valencia]=Ioslave de Subversion
+ Description[cs]=Subversion protokol
+ Description[da]=Subversion ioslave
+ Description[de]=Ein-/Ausgabemodul für Subversion
+diff -Nur kdesdk-4.3.4/kompare/kompare.desktop kdesdk-4.3.5/kompare/kompare.desktop
+--- kdesdk-4.3.4/kompare/kompare.desktop	2009-11-27 14:04:17.000000000 +0100
++++ kdesdk-4.3.5/kompare/kompare.desktop	2010-01-21 21:48:28.000000000 +0100
+@@ -5,6 +5,7 @@
+ Name[af]=K-vergelyk
+ Name[br]=Kompare
+ Name[ca]=Kompare
++Name[ca@valencia]=Kompare
+ Name[cs]=Kompare
+ Name[cy]=Kompare
+ Name[da]=Kompare
+@@ -60,6 +61,7 @@
+ GenericName=Diff/Patch Frontend
+ GenericName[af]=Diff/Lap Voorprogram
+ GenericName[ca]=Interfície per a diff/patch
++GenericName[ca@valencia]=Interfície per a diff/patch
+ GenericName[cs]=Rozhraní pro Diff/Patch
+ GenericName[cy]=Blaen Gwahaniaethau/Clytiau
+ GenericName[da]=Diff/patch-grænseflade
+diff -Nur kdesdk-4.3.4/kompare/komparenavtreepart/komparenavtreepart.desktop kdesdk-4.3.5/kompare/komparenavtreepart/komparenavtreepart.desktop
+--- kdesdk-4.3.4/kompare/komparenavtreepart/komparenavtreepart.desktop	2009-10-02 10:21:40.000000000 +0200
++++ kdesdk-4.3.5/kompare/komparenavtreepart/komparenavtreepart.desktop	2010-01-21 21:48:28.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=KompareNavTreePart
+ Name[br]=KompareNavTreePart
+ Name[ca]=KompareNavTreePart
++Name[ca@valencia]=KompareNavTreePart
+ Name[cs]=KompareNavTreePart
+ Name[cy]=KompareNavTreePart
+ Name[da]=KompareNavTreePart
+diff -Nur kdesdk-4.3.4/kompare/komparepart/komparepart.desktop kdesdk-4.3.5/kompare/komparepart/komparepart.desktop
+--- kdesdk-4.3.4/kompare/komparepart/komparepart.desktop	2009-10-02 10:21:40.000000000 +0200
++++ kdesdk-4.3.5/kompare/komparepart/komparepart.desktop	2010-01-21 21:48:28.000000000 +0100
+@@ -4,6 +4,7 @@
+ Name[af]=K-vergelyk-deel
+ Name[br]=KomparePart
+ Name[ca]=KomparePart
++Name[ca@valencia]=KomparePart
+ Name[cs]=KomparePart
+ Name[cy]=KomparePart
+ Name[da]=KomparePart
+diff -Nur kdesdk-4.3.4/kuiviewer/designerthumbnail.desktop kdesdk-4.3.5/kuiviewer/designerthumbnail.desktop
+--- kdesdk-4.3.4/kuiviewer/designerthumbnail.desktop	2009-10-02 10:21:41.000000000 +0200
++++ kdesdk-4.3.5/kuiviewer/designerthumbnail.desktop	2010-01-21 21:48:29.000000000 +0100
+@@ -3,6 +3,7 @@
+ Name=Qt Designer Files
+ Name[br]=Restroù Ergrafer Qt
+ Name[ca]=Fitxers de Qt Designer
++Name[ca@valencia]=Fitxers de Qt Designer
+ Name[cs]=Soubory Qt designeru
+ Name[cy]=Ffeiliau Qt Designer
+ Name[da]=Qt Designer-filer
+diff -Nur kdesdk-4.3.4/kuiviewer/kuiviewer.desktop kdesdk-4.3.5/kuiviewer/kuiviewer.desktop
+--- kdesdk-4.3.4/kuiviewer/kuiviewer.desktop	2009-10-02 10:21:41.000000000 +0200
++++ kdesdk-4.3.5/kuiviewer/kuiviewer.desktop	2010-01-21 21:48:29.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=KUIViewer
+ Name[br]=KUIViewer
+ Name[ca]=KUIViewer
++Name[ca@valencia]=KUIViewer
+ Name[cs]=KUIViewer
+ Name[cy]=KUIGwelydd
+ Name[da]=KUIViewer
+@@ -54,6 +55,7 @@
+ GenericName=Qt Designer UI File Viewer
+ GenericName[br]=Ur gweler restr UI Ergrafer Qt
+ GenericName[ca]=Visor de fitxer UI de Qt Designer
++GenericName[ca@valencia]=Visor de fitxer UI de Qt Designer
+ GenericName[cs]=Prohlížeč UI souborů z Qt Designeru
+ GenericName[cy]=Gwelydd Ffeiliau UI Qt Designer
+ GenericName[da]=Qt Designer UI filviser
+diff -Nur kdesdk-4.3.4/kuiviewer/kuiviewer_part.desktop kdesdk-4.3.5/kuiviewer/kuiviewer_part.desktop
+--- kdesdk-4.3.4/kuiviewer/kuiviewer_part.desktop	2009-10-02 10:21:41.000000000 +0200
++++ kdesdk-4.3.5/kuiviewer/kuiviewer_part.desktop	2010-01-21 21:48:29.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=KUIViewerPart
+ Name[br]=KUIViewerPart
+ Name[ca]=KUIViewerPart
++Name[ca@valencia]=KUIViewerPart
+ Name[cs]=KUIViewerPart
+ Name[cy]=KUIViewerPart
+ Name[da]=KUIViewerPart
+diff -Nur kdesdk-4.3.4/lokalize/src/lokalize.desktop kdesdk-4.3.5/lokalize/src/lokalize.desktop
+--- kdesdk-4.3.4/lokalize/src/lokalize.desktop	2009-11-27 14:04:18.000000000 +0100
++++ kdesdk-4.3.5/lokalize/src/lokalize.desktop	2010-01-21 21:48:29.000000000 +0100
+@@ -1,6 +1,7 @@
+ [Desktop Entry]
+ Name=Lokalize
+ Name[ca]=Lokalize
++Name[ca@valencia]=Lokalize
+ Name[cs]=Lokalize
+ Name[da]=Lokalize
+ Name[de]=Lokalize
+@@ -45,6 +46,7 @@
+ X-DocPath=lokalize/index.html
+ GenericName=Computer-Aided Translation System
+ GenericName[ca]=Sistema de traducció assistida per ordinador
++GenericName[ca@valencia]=Sistema de traducció assistida per ordinador
+ GenericName[cs]=Systém pro překlad pomocí počítače
+ GenericName[da]=Computerassisteret oversættelsessystem (CAT)
+ GenericName[de]=Computergestütztes Übersetzungssystem
+@@ -54,6 +56,7 @@
+ GenericName[et]=Tõlkemäluga tõlkimisrakendus
+ GenericName[fr]=Système de traduction assistée par ordinateur
+ GenericName[gl]=Sistema de tradución asistida por ordenador
++GenericName[hu]=Fordításkészítő
+ GenericName[it]=Sistema di traduzione assistito dal computer
+ GenericName[ja]=コンピュータの力を利用した翻訳システム
+ GenericName[lv]=Datorizēta tulkošanas sistēma
+diff -Nur kdesdk-4.3.4/scheck/scheck.themerc kdesdk-4.3.5/scheck/scheck.themerc
+--- kdesdk-4.3.4/scheck/scheck.themerc	2009-10-02 10:21:40.000000000 +0200
++++ kdesdk-4.3.5/scheck/scheck.themerc	2010-01-21 21:48:28.000000000 +0100
+@@ -1,6 +1,7 @@
+ [Misc]
+ Name=Scheck
+ Name[ca]=Scheck
++Name[ca@valencia]=Scheck
+ Name[cs]=Kontrola stylu
+ Name[cy]=Scheck
+ Name[da]=Scheck
+@@ -48,6 +49,7 @@
+ Name[zh_TW]=Scheck
+ Comment=Development style for searching accelerator and style guide conflicts
+ Comment[ca]=Estil de desenvolupament per a cercar conflictes amb acceleradors i la guia d'estil
++Comment[ca@valencia]=Estil de desenvolupament per a cercar conflictes amb acceleradors i la guia d'estil
+ Comment[cs]=Vývojový styl pro hledání konfliktů v akcelerátorech a textech
+ Comment[cy]=Arddull datblygu er chwilio am wrthdaro yn y cyflymyddion a'r canllawiau steil
+ Comment[da]=Udviklingsstil til søgning efter accelerator- og stilguide konflikter
+diff -Nur kdesdk-4.3.4/umbrello/umbrello/umbrello.desktop kdesdk-4.3.5/umbrello/umbrello/umbrello.desktop
+--- kdesdk-4.3.4/umbrello/umbrello/umbrello.desktop	2009-10-02 10:21:38.000000000 +0200
++++ kdesdk-4.3.5/umbrello/umbrello/umbrello.desktop	2010-01-21 21:48:27.000000000 +0100
+@@ -8,6 +8,7 @@
+ Name=Umbrello
+ Name[br]=Umbrello
+ Name[ca]=Umbrello
++Name[ca@valencia]=Umbrello
+ Name[cs]=Umbrello
+ Name[cy]=Umbrello
+ Name[da]=Umbrello
+@@ -59,6 +60,7 @@
+ Name[zh_TW]=Umbrello
+ GenericName=UML Modeller
+ GenericName[ca]=Modelador UML
++GenericName[ca@valencia]=Modelador UML
+ GenericName[cs]=UML modelář
+ GenericName[cy]=Modelydd UML
+ GenericName[da]=UML Modellering
